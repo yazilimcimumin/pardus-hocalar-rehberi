@@ -1,0 +1,116 @@
+{
+  "id": "internet-email",
+  "title": "İnternet ve E-posta Kullanımı",
+  "description": "Firefox web tarayıcısı, Thunderbird e-posta istemcisi, güvenli internet kullanımı ve dijital okuryazarlık.",
+  "category": "applications",
+  "difficulty": "beginner",
+  "estimated_time": 20,
+  "icon": "internet",
+  "prerequisites": ["desktop-basics"],
+  "steps": [
+    {
+      "title": "Firefox Web Tarayıcısı - İnternete Giriş",
+      "description": "Firefox, Pardus'ta varsayılan web tarayıcısıdır. Hızlı, güvenli ve gizlilik odaklıdır. Açmak için: Panel üzerindeki Firefox simgesi, Uygulama Menüsü > İnternet > Firefox, veya masaüstü kısayolu. Arayüz: Adres çubuğu (URL yazma ve arama), Geri/İleri butonları, Yenile butonu, Ana sayfa butonu, Yer imleri, Sekmeler (birden fazla sayfa), Menü (sağ üst köşe). İlk açılış: Ana sayfa ayarlama, varsayılan arama motoru (Google, DuckDuckGo), gizlilik ayarları. Firefox, Chrome'a göre daha az RAM kullanır ve gizliliğe önem verir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Web'de Gezinme ve Arama",
+      "description": "Web sitesine gitme: Adres çubuğuna site adresi yazın (örn: www.meb.gov.tr), Enter. Arama yapma: Adres çubuğuna arama terimi yazın, Enter (varsayılan arama motoru kullanılır). Bağlantılara tıklama: Mavi altı çizili metinler veya resimler bağlantıdır, tıklayın. Yeni sekmede açma: Bağlantıya sağ tık > Yeni Sekmede Aç veya Ctrl+tık. Geri/İleri: Önceki/sonraki sayfaya git. Yenile: Sayfayı yeniden yükle (F5). Ana sayfa: Başlangıç sayfasına dön. Sekme yönetimi: Yeni sekme (Ctrl+T), Sekmeyi kapat (Ctrl+W), Sekmeler arası geçiş (Ctrl+Tab).",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Yer İmleri - Favori Siteleriniz",
+      "description": "Sık ziyaret ettiğiniz siteleri yer imlerine ekleyin. Yer imi ekleme: Siteye git, yıldız simgesine tıkla veya Ctrl+D, isim ve klasör seçin. Yer imi çubuğu: Görünüm > Araç Çubukları > Yer İmleri Araç Çubuğu, hızlı erişim için. Yer imi yönetimi: Yer İmleri > Tüm Yer İmlerini Göster (Ctrl+Shift+B), klasörler oluşturun, düzenleyin, silin. Yer imi klasörleri: Eğitim, Haberler, Sosyal Medya gibi kategoriler oluşturun. Yer imi içe/dışa aktarma: Yer İmleri > Yer İmlerini Yönet > İçe/Dışa Aktar, HTML dosyası olarak yedekleyin. Öğretmenler için: MEB, EBA, ders materyali siteleri.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya İndirme ve Yönetimi",
+      "description": "İnternetten dosya indirme: Dosya bağlantısına tıklayın, indirme penceresi açılır, 'Kaydet' seçin. İndirme konumu: Varsayılan 'İndirilenler' klasörü, değiştirmek için: Ayarlar > Genel > İndirmeler. İndirme yöneticisi: Ctrl+Shift+Y veya Araçlar > İndirmeler, devam eden ve tamamlanan indirmeler. İndirmeyi duraklat/devam ettir: İndirme yöneticisinde sağ tık. Dosya türleri: PDF (döküman), DOCX (Word), XLSX (Excel), PPTX (PowerPoint), ZIP (sıkıştırılmış), JPG/PNG (resim), MP4 (video). Güvenlik: Sadece güvenilir sitelerden indirin, antivirüs taraması yapın, bilinmeyen dosyaları açmayın.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Güvenli İnternet Kullanımı",
+      "description": "İnternet güvenliği önemlidir, özellikle öğretmenler için. Güvenli siteler: Adres çubuğunda kilit simgesi (HTTPS), yeşil kilit güvenli. Şifre güvenliği: Güçlü şifreler (büyük/küçük harf, sayı, özel karakter), her site için farklı şifre, şifre yöneticisi kullanın. Kimlik avı (Phishing): Sahte e-postalar, banka/kurum adına gelen şüpheli mesajlar, bağlantılara tıklamayın, kişisel bilgi vermeyin. Kötü amaçlı yazılım: Bilinmeyen kaynaklardan program indirmeyin, ekleri açmadan önce düşünün. Gizlilik: Kişisel bilgileri paylaşmayın, sosyal medyada dikkatli olun, konum paylaşımı kapatın. Çocuk güvenliği: Ebeveyn kontrolü, güvenli arama, içerik filtreleme.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Firefox Eklentileri ve Özelleştirme",
+      "description": "Firefox eklentileri (Add-ons), tarayıcıya yeni özellikler ekler. Eklenti yükleme: Menü > Eklentiler ve Temalar, 'Eklentileri Keşfet', ara ve yükle. Önerilen eklentiler: uBlock Origin (reklam engelleyici), Privacy Badger (izleyici engelleyici), Grammarly (yazım denetimi), Google Translate (çeviri), Dark Reader (karanlık mod). Tema değiştirme: Eklentiler > Temalar, renk ve görünüm değiştir. Ayarlar: Menü > Ayarlar, genel (ana sayfa, indirmeler), arama (varsayılan motor), gizlilik (izleme koruması, çerezler), güvenlik (şifre yöneticisi). Senkronizasyon: Firefox hesabı oluşturun, yer imleri, şifreler, geçmiş senkronize edin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Thunderbird E-posta İstemcisi - Giriş",
+      "description": "Thunderbird, e-posta yönetimi için kullanılır. Gmail, Outlook gibi web tabanlı e-postalara alternatiftir. Açmak için: Uygulama Menüsü > İnternet > Thunderbird. İlk kurulum: E-posta adresi ve şifre girin, otomatik yapılandırma (Gmail, Outlook, Yahoo destekli). Manuel yapılandırma: Gelen sunucu (IMAP/POP3), giden sunucu (SMTP), port numaraları (okul IT desteğinden alın). Avantajlar: Çevrimdışı erişim, birden fazla hesap, gelişmiş filtreleme, takvim entegrasyonu. Arayüz: Klasör listesi (Gelen Kutusu, Gönderilmiş, Taslaklar), Mesaj listesi, Mesaj önizleme, Araç çubukları.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "E-posta Gönderme ve Alma",
+      "description": "Yeni e-posta yazma: 'Yaz' butonu veya Ctrl+N. Alıcı: 'Kime' alanına e-posta adresi yazın, birden fazla alıcı için virgülle ayırın. Cc (Karbon kopya): Diğer alıcılar, herkes görür. Bcc (Gizli kopya): Diğer alıcılar, kimse görmez (toplu e-posta için). Konu: E-postanın konusu, açıklayıcı olmalı. Mesaj: E-posta içeriği, biçimlendirme (kalın, italik, liste). Ek dosya: 'Ekle' butonu, dosya seç (maksimum boyut genellikle 25 MB). Gönder: 'Gönder' butonu veya Ctrl+Enter. E-posta alma: Otomatik kontrol (her 10 dakika) veya manuel 'Yeni Mesajları Al' butonu. Mesaj okuma: Mesaja tıkla, önizleme veya yeni pencerede aç.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "E-posta Organizasyonu ve Filtreleme",
+      "description": "E-postaları düzenli tutmak için klasörler ve filtreler kullanın. Klasör oluşturma: Sağ tık > Yeni Klasör, isim verin (örn: Veliler, Öğrenciler, İdare). Mesaj taşıma: Mesajı sürükleyip klasöre bırakın veya sağ tık > Taşı. Filtreler: Araçlar > Mesaj Filtreleri, kural oluştur. Örnek filtre: Gönderen 'veli@example.com' ise 'Veliler' klasörüne taşı. Otomatik yanıt: Tatilde veya toplantıda otomatik yanıt ayarlayın. Spam yönetimi: Spam mesajları 'Gereksiz' klasörüne taşıyın, Thunderbird öğrenir. Arama: Ctrl+K, mesaj ara (gönderen, konu, içerik). Etiketler: Mesajlara renk etiketi ekleyin (önemli, yapılacak, kişisel).",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Profesyonel E-posta Yazma - Öğretmenler İçin",
+      "description": "Öğretmenler için e-posta etiketi: Konu satırı: Açık ve öz (örn: '5-A Sınıfı Veli Toplantısı - 15 Haziran'). Selamlama: Resmi (Sayın Müdürüm, Değerli Velimiz) veya samimi (Merhaba, İyi günler). Giriş: Kendinizi tanıtın (gerekirse), e-postanın amacını belirtin. İçerik: Kısa ve öz, paragraflar halinde, madde işaretleri kullanın. Sonuç: Özet, beklenti, teşekkür. İmza: Adınız, unvanınız, okul, iletişim bilgileri. Ton: Kibar, profesyonel, olumlu. Yazım: Yazım hatası yapmayın, noktalama dikkat. Yanıt süresi: 24-48 saat içinde yanıt verin. Ek dosyalar: Dosya adını açıklayıcı yapın (Matematik_Sinav_5A.pdf).",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Takvim ve Görev Yönetimi",
+      "description": "Thunderbird, Lightning takvim eklentisi ile gelir. Takvim açma: Görünüm > Takvim veya Ctrl+Shift+C. Etkinlik ekleme: Takvimde tarihe çift tıkla, başlık, saat, konum, açıklama girin. Tekrarlayan etkinlikler: Haftalık ders programı, aylık toplantılar. Hatırlatıcı: Etkinlikten önce bildirim (15 dakika, 1 saat, 1 gün). Görevler: Yapılacaklar listesi, öncelik, son tarih. Takvim paylaşma: Google Takvim ile senkronize edin, meslektaşlarla paylaşın. Renk kodlama: Farklı etkinlik türleri için renkler (dersler mavi, toplantılar yeşil, kişisel sarı). Yazdırma: Takvimi yazdır, haftalık/aylık görünüm.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Çevrimiçi Eğitim Platformları - EBA ve Zoom",
+      "description": "EBA (Eğitim Bilişim Ağı): MEB'in resmi eğitim platformu. Erişim: www.eba.gov.tr, öğretmen girişi (MEBBİS şifresi). İçerik: Ders videoları, interaktif içerikler, testler, e-kitaplar. Sınıf oluşturma: Öğrencilerinizi ekleyin, ödev verin, takip edin. Zoom: Video konferans uygulaması, uzaktan eğitim. Kurulum: www.zoom.us, uygulamayı indirin ve kurun. Toplantı başlatma: 'Yeni Toplantı', bağlantıyı öğrencilerle paylaşın. Ekran paylaşımı: Sunum gösterme, döküman paylaşma. Sohbet: Metin mesajları, soru-cevap. Kayıt: Dersi kaydedin, sonra paylaşın. Güvenlik: Bekleme odası, şifre koruması, istenmeyen katılımcıları çıkarma.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Dijital Okuryazarlık ve Kaynak Değerlendirme",
+      "description": "İnternetteki bilgilerin doğruluğunu değerlendirmek önemlidir. Güvenilir kaynaklar: Resmi kurumlar (.gov.tr), üniversiteler (.edu.tr), bilimsel dergiler, tanınmış haber siteleri. Şüpheli kaynaklar: Anonim siteler, yazar bilgisi yok, tarih yok, kaynak gösterilmemiş. Çapraz kontrol: Bilgiyi birden fazla kaynaktan doğrulayın. Yanlış bilgi: Sahte haberler, manipüle edilmiş görseller, komplo teorileri. Kaynak gösterme: Öğrencilere kaynak göstermeyi öğretin, intihal yapmayın. Telif hakkı: Görselleri, metinleri izinsiz kullanmayın, Creative Commons lisanslı içerikler kullanın. Öğrencilere öğretin: Eleştirel düşünme, kaynak değerlendirme, dijital vatandaşlık.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    }
+  ]
+}

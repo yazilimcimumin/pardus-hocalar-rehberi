@@ -1,0 +1,124 @@
+{
+  "id": "multimedia",
+  "title": "Multimedya - Ses, Video ve Görüntü İşleme",
+  "description": "Müzik çalma, video izleme, fotoğraf düzenleme, ekran kaydı ve tüm multimedya işlemleri.",
+  "category": "applications",
+  "difficulty": "beginner",
+  "estimated_time": 18,
+  "icon": "multimedia",
+  "prerequisites": ["desktop-basics", "file-operations"],
+  "steps": [
+    {
+      "title": "Pardus Multimedya Uygulamalarına Giriş",
+      "description": "Pardus, multimedya için güçlü ve kullanıcı dostu uygulamalar sunar. Ana uygulamalar: VLC Media Player (video/müzik oynatıcı), Parole (hafif medya oynatıcı), Ristretto (resim görüntüleyici), GIMP (gelişmiş görüntü düzenleme), Audacity (ses düzenleme), SimpleScreenRecorder (ekran kaydı). Tüm uygulamalar ücretsiz ve açık kaynaklıdır. Desteklenen formatlar: Video (MP4, AVI, MKV, MOV), Ses (MP3, WAV, OGG, FLAC), Resim (JPG, PNG, GIF, BMP, SVG). Codec desteği: Pardus, çoğu formatı otomatik destekler, eksik codec varsa otomatik yükleme önerir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "VLC Media Player - Evrensel Oynatıcı",
+      "description": "VLC, neredeyse tüm video ve ses formatlarını oynatır. Açmak için: Uygulama Menüsü > Multimedya > VLC Media Player. Dosya açma: Medya > Dosya Aç (Ctrl+O), video/müzik dosyası seç. Oynatma kontrolleri: Oynat/Duraklat (Space), Durdur, İleri/Geri sar, Ses seviyesi, Tam ekran (F). Çalma listesi: Görünüm > Çalma Listesi, birden fazla dosya ekle, sıralama. Altyazı: Altyazı > Altyazı Dosyası Ekle, .srt dosyası seç, senkronizasyon ayarı (J/K tuşları). Ses ayarları: Ses > Ses Cihazı, ekolayzır, stereo/mono. Video ayarları: Video > Kırpma, en-boy oranı, filtreler. Ekran görüntüsü: Video > Anlık Görüntü Al.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "VLC ile Eğitim Videoları İzleme",
+      "description": "Öğretmenler için VLC ipuçları: Hız kontrolü: Oynatma > Hız, yavaşlatma (0.5x, 0.75x) veya hızlandırma (1.25x, 1.5x, 2x), ders tekrarı için ideal. Yer imleri: Oynatma > Özel Yer İmleri, önemli anları işaretle, hızlı erişim. A-B tekrarı: Oynatma > A-B Döngüsü, belirli bölümü tekrarla. Ses gecikmesi: Araçlar > Parça Senkronizasyonu, ses/video senkronizasyonu. Döndürme: Araçlar > Efektler ve Filtreler > Video Efektleri > Geometri > Döndür. Kayıt: Görünüm > Gelişmiş Kontroller, kayıt butonu görünür, video kaydı. Format dönüştürme: Medya > Dönüştür/Kaydet, farklı formata çevir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Müzik Dinleme ve Yönetimi",
+      "description": "Pardus'ta müzik dinlemek için: VLC (güçlü özellikler), Parole (basit arayüz), Rhythmbox (müzik kütüphanesi). Müzik kütüphanesi oluşturma: Müzik dosyalarını 'Müzik' klasörüne kopyalayın, otomatik taranır. Çalma listesi: Favori şarkılarınızı listeler halinde düzenleyin. Etiket düzenleme: Şarkı bilgileri (sanatçı, albüm, yıl) düzenleyin. Radyo dinleme: İnternet radyoları ekleyin, canlı yayın. CD çalma: Ses CD'si takın, otomatik oynatılır veya VLC'de Medya > Disk Aç. CD'den müzik kopyalama (Ripping): Sound Juicer uygulaması, CD'yi MP3/OGG formatına çevir. Ses seviyesi: Panel üzerindeki hoparlör simgesi, sistem ses seviyesi.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Ristretto - Resim Görüntüleyici",
+      "description": "Ristretto, hızlı ve hafif resim görüntüleyicidir. Açmak için: Resim dosyasına çift tıkla veya Uygulama Menüsü > Grafik > Ristretto. Resim gezinme: İleri/Geri oklar, fare tekerleği, slayt gösterisi (F5). Yakınlaştırma: Zoom in (+), Zoom out (-), Pencereye sığdır (1), Gerçek boyut (2). Döndürme: Sağa/Sola döndür, dikey/yatay çevir. Tam ekran: F11, sunum için ideal. Slayt gösterisi: Görünüm > Slayt Gösterisi, otomatik geçiş, süre ayarı. Resim bilgileri: Dosya > Özellikler, çözünürlük, boyut, tarih. Duvar kağıdı yapma: Dosya > Masaüstü Duvar Kağıdı Olarak Ayarla. Toplu görüntüleme: Klasördeki tüm resimleri sırayla göster.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "GIMP - Gelişmiş Görüntü Düzenleme",
+      "description": "GIMP (GNU Image Manipulation Program), Photoshop'a ücretsiz alternatiftir. Açmak için: Uygulama Menüsü > Grafik > GIMP. İlk açılış: Pencere düzeni ayarı, tek pencere modu önerilir. Resim açma: Dosya > Aç, resim dosyası seç. Temel araçlar: Seçim (dikdörtgen, elips, serbest), Kırpma, Döndürme, Ölçeklendirme, Fırça, Kalem, Silgi, Metin, Renk seçici. Katmanlar: Pencere > Katmanlar, katman ekleme/silme/düzenleme. Filtreler: Filtreler menüsü, bulanıklaştırma, keskinleştirme, gürültü azaltma, sanatsal efektler. Renk ayarları: Renkler > Parlaklık-Kontrast, Ton-Doygunluk, Seviyeler, Eğriler. Kaydetme: Dosya > Dışa Aktar (JPG, PNG), Dosya > Kaydet (XCF, GIMP formatı, katmanları korur).",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "GIMP ile Eğitim Materyali Hazırlama",
+      "description": "Öğretmenler için GIMP kullanımı: Poster hazırlama: Dosya > Yeni, boyut seç (A4: 2480x3508 piksel, 300 DPI), metin ekle, resim ekle, şekiller çiz. Sertifika tasarımı: Şablon kullan veya sıfırdan oluştur, çerçeve ekle, öğrenci adı için metin alanı. Fotoğraf düzenleme: Kırpma (gereksiz kısımları kes), Parlaklık-Kontrast (netleştir), Renk düzeltme, Kırmızı göz giderme. Kolaj yapma: Birden fazla resmi birleştir, katmanlar kullan, boyutlandır, düzenle. Logo tasarımı: Şekiller ve metin ile logo oluştur, şeffaf arka plan (PNG). Ekran görüntüsü düzenleme: Ekran görüntüsü al, GIMP'te aç, işaretle (oklar, çerçeveler), metin ekle. Toplu işlem: Filtreler > Toplu İşlem, birden fazla resme aynı efekti uygula.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Görüntüsü Alma",
+      "description": "Ekran görüntüsü almak için birkaç yöntem: Print Screen tuşu: Tüm ekranı yakala, otomatik 'Resimler' klasörüne kaydedilir. Alt+Print Screen: Aktif pencereyi yakala. Shift+Print Screen: Fare ile alan seç, seçili alanı yakala. Ekran Görüntüsü uygulaması: Uygulama Menüsü > Yardımcı Programlar > Ekran Görüntüsü, gecikme ayarı (5 saniye), fare imlecini dahil et, kaydetme konumu. Shutter (gelişmiş): Yazılım Merkezi'nden yükle, düzenleme araçları (ok, metin, bulanıklaştırma), otomatik yükleme. Kullanım alanları: Ders materyali, hata raporlama, adım adım rehber, sunum hazırlama.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Kaydı - Video Oluşturma",
+      "description": "SimpleScreenRecorder ile ekran kaydı: Kurulum: Yazılım Merkezi > SimpleScreenRecorder, yükle. Açma: Uygulama Menüsü > Multimedya > SimpleScreenRecorder. Kayıt ayarları: Tam ekran veya alan seçimi, ses kaydı (mikrofon ve/veya sistem sesi), video kalitesi (1080p önerilir), FPS (30 yeterli). Kayıt başlatma: 'Kaydı Başlat' butonu, 3 saniye geri sayım. Kayıt durdurma: 'Kaydı Durdur' butonu veya kısayol tuşu. Kayıt konumu: Videolar klasörü, MP4 formatı. Kullanım alanları: Ders anlatımı, yazılım öğretimi, sunum kaydı, uzaktan eğitim. İpuçları: Sessiz ortam, yavaş konuşun, fare hareketlerini abartmayın, gereksiz kısımları düzenleyin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Video Düzenleme - OpenShot",
+      "description": "OpenShot, basit video düzenleme programıdır. Kurulum: Yazılım Merkezi > OpenShot Video Editor. Açma: Uygulama Menüsü > Multimedya > OpenShot. Proje oluşturma: Dosya > Yeni Proje, proje adı, çözünürlük (1920x1080), FPS (30). Video ekleme: Proje Dosyaları > Dosya Ekle, video/resim/ses dosyaları. Zaman çizelgesi: Dosyaları zaman çizelgesine sürükle, sıralama, kırpma. Kesme: Video üzerine sağ tık > Kes, gereksiz kısımları sil. Geçişler: İki video arasına geçiş efekti ekle (solma, kayma). Metin ekleme: Başlık > Başlık Ekle, metin yaz, font/renk ayarla. Ses ekleme: Arka plan müziği, ses efektleri. Dışa aktarma: Dosya > Dışa Aktar, format (MP4), kalite, kaydet.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Ses Kaydı ve Düzenleme - Audacity",
+      "description": "Audacity, ses kaydı ve düzenleme programıdır. Kurulum: Yazılım Merkezi > Audacity. Ses kaydı: Mikrofon bağlayın, kayıt butonu (kırmızı daire), konuşun, durdur. Ses içe aktarma: Dosya > Aç, ses dosyası seç (MP3, WAV). Düzenleme araçları: Seçim (fare ile sürükle), Kes (Ctrl+X), Kopyala (Ctrl+C), Yapıştır (Ctrl+V), Sil (Delete). Efektler: Efekt menüsü, Normalize (ses seviyesi dengele), Gürültü Azaltma, Yankı, Hız Değiştir, Ton Değiştir. Birden fazla ses: Parçalar > Yeni Parça Ekle, karıştırma. Dışa aktarma: Dosya > Dışa Aktar, format seç (MP3, WAV, OGG). Kullanım: Podcast, ders anlatımı, ses efekti, müzik düzenleme.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "PDF Görüntüleme ve Düzenleme",
+      "description": "Evince, Pardus'un varsayılan PDF görüntüleyicisidir. PDF açma: PDF dosyasına çift tıkla veya Uygulama Menüsü > Ofis > Evince. Gezinme: Sayfa yukarı/aşağı, fare tekerleği, sayfa numarasına git. Yakınlaştırma: Zoom in/out, pencereye sığdır, sayfa genişliği. Arama: Ctrl+F, metin ara, sonuçlar vurgulanır. Yer imleri: Sol panel, döküman içi bağlantılar. Yazdırma: Dosya > Yazdır, sayfa aralığı, çift taraflı. PDF düzenleme: LibreOffice Draw ile aç (Dosya > Birlikte Aç > LibreOffice Draw), metin ekle, resim ekle, kaydet. PDF birleştirme: PDF Mod uygulaması (Yazılım Merkezi'nden), birden fazla PDF'i birleştir. PDF'den metin kopyalama: Metni seç, Ctrl+C, yapıştır.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Webcam Kullanımı - Cheese",
+      "description": "Cheese, webcam fotoğraf ve video çekimi için kullanılır. Kurulum: Yazılım Merkezi > Cheese. Açma: Uygulama Menüsü > Multimedya > Cheese. Webcam seçimi: Birden fazla kamera varsa, Cheese > Tercihler > Cihaz. Fotoğraf çekme: Fotoğraf modu, Space tuşu veya kamera butonu, 3 saniye geri sayım. Video çekme: Video modu, kayıt butonu, tekrar bas durdur. Efektler: Efektler paneli, komik efektler (balık gözü, ayna, kenar algılama). Seri çekim: Seri çekim modu, birden fazla fotoğraf. Kayıt konumu: Resimler/Webcam klasörü. Kullanım: Profil fotoğrafı, öğrenci fotoğrafı, video mesaj, kimlik kartı fotoğrafı.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Multimedya Format Dönüştürme",
+      "description": "Format dönüştürme, dosyaları farklı cihazlarda kullanmak için gereklidir. Video dönüştürme: VLC ile (Medya > Dönüştür/Kaydet), kaynak dosya seç, hedef format (MP4, AVI, MKV), profil seç (Android, iPhone, YouTube), dönüştür. HandBrake (gelişmiş): Yazılım Merkezi'nden yükle, video sıkıştırma, kalite ayarı, toplu dönüştürme. Ses dönüştürme: SoundConverter (Yazılım Merkezi), MP3, OGG, WAV, FLAC arası dönüştürme. Resim dönüştürme: GIMP ile (Dosya > Dışa Aktar), JPG, PNG, GIF, BMP arası. Toplu dönüştürme: ImageMagick (komut satırı), birden fazla resmi aynı anda dönüştür. Codec kurulumu: Eksik codec varsa, Yazılım Merkezi > ubuntu-restricted-extras.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    }
+  ]
+}

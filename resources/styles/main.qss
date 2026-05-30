@@ -1,0 +1,290 @@
+/*
+ * Pardus Yol Arkadaşı - Ana Stil Dosyası
+ * Ottoman Techs - Teknofest 2026
+ *
+ * Apple-inspired Modern Design
+ * Yumuşak renkler, okunabilir yazı tipleri, minimal tasarım
+ */
+
+/* Genel Widget Stilleri */
+QWidget {
+    font-family: -apple-system, "SF Pro Display", "Segoe UI", "Ubuntu", "Helvetica Neue", sans-serif;
+    font-size: 13pt;
+    color: #1d1d1f;
+    letter-spacing: -0.3px;
+}
+
+/* Ana Pencere */
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #f5f5f7, stop:1 #e8e8ed);
+}
+
+/* Butonlar - Apple Tarzı */
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #007aff, stop:1 #0051d5);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 14pt;
+    min-height: 44px;
+    letter-spacing: -0.2px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #0077ed, stop:1 #004ec5);
+    transform: scale(1.02);
+}
+
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #0051d5, stop:1 #003da8);
+    padding: 13px 24px 11px 24px;
+}
+
+QPushButton:disabled {
+    background: #d1d1d6;
+    color: #8e8e93;
+}
+
+/* Başarı Butonu */
+QPushButton.success {
+    background-color: #27ae60;
+}
+
+QPushButton.success:hover {
+    background-color: #229954;
+}
+
+/* Tehlike Butonu */
+QPushButton.danger {
+    background-color: #e74c3c;
+}
+
+QPushButton.danger:hover {
+    background-color: #c0392b;
+}
+
+/* Etiketler - Okunabilir Tipografi */
+QLabel {
+    color: #1d1d1f;
+    line-height: 1.5;
+}
+
+QLabel.title {
+    font-size: 32pt;
+    font-weight: 700;
+    color: #1d1d1f;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+QLabel.subtitle {
+    font-size: 17pt;
+    font-weight: 400;
+    color: #6e6e73;
+    letter-spacing: -0.4px;
+    line-height: 1.4;
+}
+
+/* Liste Widget'ları */
+QListWidget {
+    background-color: white;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2px;
+}
+
+QListWidget::item:hover {
+    background-color: #ecf0f1;
+}
+
+QListWidget::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+/* İlerleme Çubuğu */
+QProgressBar {
+    border: none;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+    text-align: center;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #3498db;
+    border-radius: 4px;
+}
+
+/* Kaydırma Çubukları */
+QScrollBar:vertical {
+    border: none;
+    background-color: #ecf0f1;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #bdc3c7;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #95a5a6;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: #ecf0f1;
+    height: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #bdc3c7;
+    border-radius: 6px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #95a5a6;
+}
+
+/* Metin Girişi */
+QLineEdit, QTextEdit {
+    background-color: white;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    padding: 8px;
+    color: #2c3e50;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border-color: #3498db;
+}
+
+/* Onay Kutusu */
+QCheckBox {
+    spacing: 8px;
+    color: #2c3e50;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 4px;
+    background-color: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+/* Radyo Butonu */
+QRadioButton {
+    spacing: 8px;
+    color: #2c3e50;
+}
+
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    background-color: white;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+/* Grup Kutusu */
+QGroupBox {
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 5px;
+    color: #2c3e50;
+}
+
+/* Sekme Widget'ı */
+QTabWidget::pane {
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: white;
+}
+
+QTabBar::tab {
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: white;
+    color: #2c3e50;
+}
+
+QTabBar::tab:hover {
+    background-color: #d5dbdb;
+}
+
+/* Araç İpucu */
+QToolTip {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+/* Menü */
+QMenu {
+    background-color: white;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QMenu::item {
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Durum Çubuğu */
+QStatusBar {
+    background-color: #34495e;
+    color: white;
+}

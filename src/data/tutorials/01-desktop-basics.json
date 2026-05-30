@@ -1,0 +1,116 @@
+{
+  "id": "desktop-basics",
+  "title": "Masaüstü Temelleri",
+  "description": "Pardus masaüstü ortamını derinlemesine tanıyın. Panel, menü, masaüstü kullanımı ve tüm temel işlemleri öğrenin.",
+  "category": "basics",
+  "difficulty": "beginner",
+  "estimated_time": 15,
+  "icon": "desktop",
+  "prerequisites": [],
+  "steps": [
+    {
+      "title": "Pardus Masaüstüne Hoş Geldiniz",
+      "description": "Pardus, hafif ve hızlı XFCE masaüstü ortamını kullanır. Ekranınızın en altında ana panel, sol üst köşede uygulama menüsü bulunur. Masaüstü, Windows'a benzer şekilde çalışır ancak daha hızlı ve güvenlidir. Bu rehber, Pardus'u günlük kullanımda rahatça kullanabilmeniz için tüm temel özellikleri adım adım öğretecektir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Uygulama Menüsü - Tüm Programlarınız Burada",
+      "description": "Sol üst köşedeki Pardus logosu (mavi düğme), uygulama menüsünü açar. Bu menü Windows'taki Başlat menüsüne benzer. Kategoriler: Aksesuar (yardımcı araçlar), Eğitim, Geliştirme, Grafik, İnternet, Multimedya, Ofis, Oyunlar, Sistem, Ayarlar. Arama kutusuna yazarak hızlıca uygulama bulabilirsiniz. Sık kullandığınız uygulamalar 'Favoriler' bölümünde görünür.",
+      "target": ".xfce4-panel-button",
+      "target_type": "selector",
+      "duration": 15,
+      "animation": "pulse"
+    },
+    {
+      "title": "Dosya Yöneticisi (Thunar) - Dosyalarınızı Yönetin",
+      "description": "Dosya Yöneticisi (Thunar), tüm dosya ve klasörlerinize erişim noktasıdır. Panel üzerindeki klasör simgesine veya masaüstündeki 'Ev Klasörü' ikonuna tıklayarak açabilirsiniz. Sol panelde: Ev Klasörü (kişisel dosyalarınız), Masaüstü, Belgeler, İndirilenler, Müzik, Resimler, Videolar klasörleri bulunur. Üst menüde: Geri/İleri, Yukarı (üst klasör), Yenile, Ev butonları vardır. Adres çubuğundan doğrudan klasör yolu yazabilirsiniz.",
+      "target": ".thunar-launcher",
+      "target_type": "selector",
+      "duration": 18,
+      "animation": "pulse"
+    },
+    {
+      "title": "Masaüstü Kullanımı ve Özelleştirme",
+      "description": "Masaüstü, dosya ve klasör kısayollarınızı koyabileceğiniz alandır. Masaüstüne sağ tıklayarak: Yeni klasör oluşturabilir, dosya yapıştırabilir, masaüstü ayarlarını değiştirebilirsiniz. Masaüstü Ayarları'ndan: Duvar kağıdı değiştirme, ikon boyutu ayarlama, masaüstü simgelerini göster/gizle seçenekleri bulunur. İkonları sürükleyerek istediğiniz yere yerleştirebilirsiniz. Masaüstünde dosya seçmek için tek tık, açmak için çift tık kullanın.",
+      "target": null,
+      "target_type": "window",
+      "duration": 16,
+      "animation": "fade"
+    },
+    {
+      "title": "Masaüstüne Kısayol Ekleme - Hızlı Erişim",
+      "description": "Sık kullandığınız uygulamaları masaüstüne eklemek için 3 yöntem: 1) Uygulama menüsünden uygulamaya sağ tıklayın, 'Masaüstüne Başlatıcı Ekle' seçin. 2) Dosya yöneticisinden bir dosyayı masaüstüne sürükleyin. 3) Masaüstüne sağ tık > Başlatıcı Oluştur, uygulama seçin. Kısayolları düzenlemek için: Sağ tık > Özellikler. Silmek için: Sağ tık > Çöp Kutusuna Taşı. Not: Kısayolu silmek, orijinal dosyayı silmez.",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Alt Panel - Hızlı Erişim Çubuğu",
+      "description": "Ekranın altındaki panel, Windows görev çubuğuna benzer. Soldan sağa: Uygulama Menüsü düğmesi, Dosya Yöneticisi kısayolu, Web Tarayıcı kısayolu, Açık pencereler listesi (görev çubuğu), Sistem tepsisi (sağ taraf). Sistem tepsisinde: Ağ bağlantısı simgesi, Ses kontrolü, Güç yönetimi, Bildirimler, Saat/Takvim bulunur. Panele sağ tıklayarak: Panel ayarları, yeni öğe ekleme, panel konumu değiştirme seçenekleri vardır.",
+      "target": ".xfce4-panel",
+      "target_type": "selector",
+      "duration": 18,
+      "animation": "pulse"
+    },
+    {
+      "title": "Sistem Tepsisi - Hızlı Ayarlar",
+      "description": "Sağ alt köşedeki sistem tepsisi, önemli sistem bilgilerine hızlı erişim sağlar. Ağ simgesi: İnternet bağlantısı durumu, WiFi ağları, kablolu bağlantı. Hoparlör simgesi: Ses seviyesi ayarı, sessiz modu. Pil simgesi (dizüstü): Şarj durumu, güç tasarrufu ayarları. Bildirim simgesi: Sistem bildirimleri, güncellemeler. Saat: Tarih ve saat, takvim görünümü. Her simgeye tıklayarak ilgili ayarlara erişebilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 16,
+      "animation": "fade"
+    },
+    {
+      "title": "Pencere Yönetimi - Temel İşlemler",
+      "description": "Pencere başlık çubuğu (üst kısım) ile pencereleri yönetebilirsiniz. Başlık çubuğunu sürükleyerek: Pencereyi taşıyın. Pencere köşelerinden veya kenarlarından sürükleyerek: Boyutlandırın. Sağ üst köşedeki butonlar: Küçült (çizgi), Büyüt/Geri Al (kare), Kapat (X). Başlık çubuğuna çift tıklayarak: Tam ekran/normal boyut. Başlık çubuğuna sağ tıklayarak: Pencere menüsü (her zaman üstte, diğer masaüstüne gönder, vb.).",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Klavye Kısayolları - Hızlı Çalışma",
+      "description": "Önemli klavye kısayolları: Alt+Tab = Açık pencereler arası geçiş. Alt+F4 = Aktif pencereyi kapat. Ctrl+Alt+D = Masaüstünü göster. Super (Windows tuşu) = Uygulama menüsünü aç. Ctrl+Alt+T = Terminal aç. Print Screen = Ekran görüntüsü al. Alt+F2 = Hızlı komut çalıştır. Ctrl+Alt+L = Ekranı kilitle. Bu kısayollar, fareye ihtiyaç duymadan hızlı çalışmanızı sağlar.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Çoklu Masaüstü (Workspace) Kullanımı",
+      "description": "Pardus, birden fazla sanal masaüstü (workspace) destekler. Bu özellik, farklı görevleri ayrı masaüstlerinde organize etmenizi sağlar. Örnek: 1. masaüstünde ofis uygulamaları, 2. masaüstünde internet tarayıcısı, 3. masaüstünde multimedya. Masaüstleri arası geçiş: Ctrl+Alt+Sağ/Sol ok tuşları veya paneldeki workspace değiştirici. Pencereyi başka masaüstüne taşımak: Pencere başlığına sağ tık > Diğer Masaüstüne Gönder.",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Bildirimler ve Sistem Mesajları",
+      "description": "Pardus, önemli olaylar için ekranın sağ üst köşesinde bildirimler gösterir. Bildirim türleri: Sistem güncellemeleri, USB cihaz takıldı/çıkarıldı, Ağ bağlantısı değişti, Düşük pil uyarısı, Uygulama bildirimleri. Bildirimleri görmek için: Sistem tepsisindeki bildirim simgesine tıklayın. Bildirim ayarları: Ayarlar > Bildirimler menüsünden yapılandırabilirsiniz. Rahatsız etme modu: Bildirimleri geçici olarak kapatabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 16,
+      "animation": "fade"
+    },
+    {
+      "title": "Paneli Özelleştirme - Kendi Tarzınızı Yaratın",
+      "description": "Paneli ihtiyaçlarınıza göre özelleştirebilirsiniz. Panele sağ tık > Panel > Panel Tercihleri. Yapabilecekleriniz: Panel konumunu değiştirme (alt, üst, yan), Panel boyutunu ayarlama, Otomatik gizleme (tam ekran için), Yeni panel ekleme (birden fazla panel), Panel öğelerini ekleme/çıkarma (saat, sistem monitörü, hava durumu vb.), Öğelerin sırasını değiştirme. Öğe eklemek için: Panel > Yeni Öğe Ekle, listeden seçin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Oturum Yönetimi - Güvenli Çıkış",
+      "description": "Bilgisayarınızı kapatmak veya oturumu sonlandırmak için: Uygulama Menüsü > Oturumu Kapat veya paneldeki güç düğmesi. Seçenekler: Oturumu Kapat (kullanıcı değiştir), Kilitle (ekranı kilitle, şifre iste), Yeniden Başlat (bilgisayarı yeniden başlat), Kapat (bilgisayarı kapat), Askıya Al (uyku modu, hızlı açılış), Hazırda Beklet (RAM'i diske yaz, güç kesintisine karşı güvenli). Önemli: Kapatmadan önce tüm çalışmalarınızı kaydedin!",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    }
+  ]
+}

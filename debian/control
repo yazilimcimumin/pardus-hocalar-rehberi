@@ -1,0 +1,27 @@
+Source: pardus-yol-arkadasi
+Section: education
+Priority: optional
+Maintainer: Ottoman Techs <ottoman.techs@example.com>
+Build-Depends: debhelper (>= 11), python3 (>= 3.10), dh-python
+Standards-Version: 4.5.0
+Homepage: https://github.com/OttomanTechs/pardus-yol-arkadasi
+
+Package: pardus-yol-arkadasi
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends},
+         python3 (>= 3.10),
+         python3-pyqt5,
+         python3-pyqt5.qtmultimedia
+Description: İnteraktif Pardus kullanıcı rehberi
+ Pardus Yol Arkadaşı, Windows'tan Pardus'a geçiş yapan kullanıcılar
+ için geliştirilmiş interaktif bir on-boarding sistemidir.
+ .
+ Özellikler:
+  - İnteraktif adım adım rehberlik
+  - Sesli anlatım desteği
+  - Spotlight efekti ile görsel vurgulama
+  - Akıllı tahta uyumlu arayüz
+  - Modüler rehber sistemi
+ .
+ Bu paket özellikle Pardus akıllı tahta kullanan öğretmenler ve
+ eğitimciler için tasarlanmıştır.

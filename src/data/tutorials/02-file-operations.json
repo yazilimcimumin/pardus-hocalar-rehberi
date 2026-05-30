@@ -1,0 +1,132 @@
+{
+  "id": "file-operations",
+  "title": "Dosya İşlemleri",
+  "description": "Dosya ve klasör oluşturma, kopyalama, taşıma, silme, arama ve tüm dosya yönetimi işlemlerini detaylı öğrenin.",
+  "category": "basics",
+  "difficulty": "beginner",
+  "estimated_time": 20,
+  "icon": "folder",
+  "prerequisites": ["desktop-basics"],
+  "steps": [
+    {
+      "title": "Dosya Yöneticisini Açın ve Tanıyın",
+      "description": "Dosya Yöneticisi (Thunar), tüm dosya işlemlerinizin merkezi. Açmak için: Panel üzerindeki klasör simgesi, Uygulama Menüsü > Sistem > Dosya Yöneticisi, veya masaüstündeki 'Ev Klasörü' ikonu. Arayüz: Sol panel (yer imleri ve cihazlar), Orta alan (dosya listesi), Üst menü (işlem butonları), Alt durum çubuğu (seçili öğe bilgisi). Görünüm modları: Simge görünümü (büyük ikonlar), Liste görünümü (detaylı bilgi), Kompakt görünümü (küçük ikonlar).",
+      "target": ".thunar-launcher",
+      "target_type": "selector",
+      "duration": 18,
+      "animation": "pulse"
+    },
+    {
+      "title": "Klasör Yapısını Anlama",
+      "description": "Linux dosya sistemi hiyerarşik yapıdadır. Ev Klasörü (/home/kullaniciadi): Kişisel dosyalarınızın bulunduğu ana klasör. Alt klasörler: Masaüstü (masaüstündeki dosyalar), Belgeler (dökümanlar), İndirilenler (internet indirmeleri), Müzik (ses dosyaları), Resimler (fotoğraflar), Videolar (video dosyaları), Genel (paylaşılan dosyalar). Gizli dosyalar: Nokta (.) ile başlayan dosyalar, yapılandırma dosyalarıdır. Görüntülemek için: Görünüm > Gizli Dosyaları Göster veya Ctrl+H.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Yeni Klasör Oluşturma - Düzenli Çalışın",
+      "description": "Klasör oluşturmanın 4 yolu: 1) Boş alana sağ tık > Klasör Oluştur. 2) Dosya menüsü > Klasör Oluştur. 3) Klavye kısayolu: Ctrl+Shift+N. 4) Araç çubuğundaki 'Yeni Klasör' butonu. Klasör adlandırma kuralları: Türkçe karakter kullanabilirsiniz, Boşluk yerine alt çizgi (_) veya tire (-) önerilir, Büyük/küçük harf duyarlıdır (Belgeler ≠ belgeler), Özel karakterlerden kaçının (/, \\, :, *, ?, \", <, >, |). İyi örnekler: Ders_Notlari, 2026-Projeler, Ogrenci_Belgeleri.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Seçme Teknikleri",
+      "description": "Tek dosya seçmek: Dosyaya tek tıklayın. Birden fazla dosya seçmek: Ctrl tuşuna basılı tutarak dosyalara tıklayın. Ardışık dosyalar seçmek: İlk dosyaya tıklayın, Shift tuşuna basılı tutarak son dosyaya tıklayın. Tüm dosyaları seçmek: Ctrl+A veya Düzenle > Tümünü Seç. Seçimi tersine çevirmek: Ctrl+I. Seçimi kaldırmak: Boş alana tıklayın veya Escape tuşu. Seçili dosya sayısı ve toplam boyutu alt durum çubuğunda görünür.",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Kopyalama - Güvenli Yedekleme",
+      "description": "Kopyalama, dosyanın bir kopyasını başka konuma oluşturur, orijinal dosya yerinde kalır. Yöntem 1 (Sağ tık menüsü): Dosyaya sağ tık > Kopyala (Ctrl+C), hedef klasöre git, sağ tık > Yapıştır (Ctrl+V). Yöntem 2 (Sürükle-bırak): Ctrl tuşuna basılı tutarak dosyayı hedef klasöre sürükleyin. Yöntem 3 (Menü): Dosya seç, Düzenle > Kopyala, hedef klasöre git, Düzenle > Yapıştır. İpucu: Aynı klasöre kopyalarsanız, dosya adına '(kopya)' eklenir. Büyük dosyalarda ilerleme çubuğu görünür.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Taşıma - Konumunu Değiştirme",
+      "description": "Taşıma, dosyayı orijinal konumdan kaldırıp yeni konuma yerleştirir. Yöntem 1 (Kes-Yapıştır): Dosyaya sağ tık > Kes (Ctrl+X), hedef klasöre git, sağ tık > Yapıştır (Ctrl+V). Yöntem 2 (Sürükle-bırak): Dosyayı hedef klasöre sürükleyin (aynı disk içinde taşır, farklı disklerde kopyalar). Yöntem 3 (Shift+Sürükle): Shift tuşuna basılı tutarak sürüklerseniz her zaman taşır. Dikkat: Taşıma işlemi geri alınamaz, önemli dosyalarda önce yedek alın. Farklı disklere taşıma daha uzun sürer (önce kopyalar, sonra siler).",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Yeniden Adlandırma",
+      "description": "Dosya veya klasör adını değiştirmek için: Yöntem 1: Dosyaya sağ tık > Yeniden Adlandır. Yöntem 2: Dosyayı seç, F2 tuşuna bas. Yöntem 3: Dosyayı seç, Düzenle > Yeniden Adlandır. Adlandırma ipuçları: Açıklayıcı isimler kullanın (Belge1 yerine Matematik_Sinav_Sorulari), Tarih ekleyin (2026-05-30_Rapor), Sürüm numarası kullanın (Proje_v1, Proje_v2), Dosya uzantısını değiştirmeyin (.pdf, .docx, .jpg vb.). Toplu yeniden adlandırma: Birden fazla dosya seç, F2 tuş, yeni ad yaz (otomatik numaralandırır).",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Silme ve Geri Dönüşüm Kutusu",
+      "description": "Dosya silmenin 2 yolu: Geçici silme (Geri dönüşüm kutusuna): Delete tuşu veya sağ tık > Çöp Kutusuna Taşı. Dosya geri dönüşüm kutusuna gider, geri getirilebilir. Kalıcı silme (Geri getirilemez): Shift+Delete tuşu. Dosya kalıcı silinir, geri getirilemez! Geri dönüşüm kutusunu yönetme: Masaüstündeki 'Çöp Kutusu' ikonuna çift tıklayın, içeriği görüntüleyin. Dosyayı geri getirmek: Sağ tık > Geri Yükle. Kutuyu boşaltmak: Sağ tık > Çöp Kutusunu Boşalt. Dikkat: Çöp kutusu disk alanı kaplar, düzenli temizleyin!",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Arama - Hızlı Bulma",
+      "description": "Dosya aramak için: Dosya Yöneticisi'nde Ctrl+F veya Düzenle > Ara. Arama kutusu açılır, dosya adını yazın. Arama seçenekleri: Dosya adı (varsayılan), İçerik (dosya içeriğinde ara), Tarih (oluşturma/değiştirme tarihi), Boyut (dosya boyutu), Tür (dosya türü). Gelişmiş arama: Joker karakterler kullanın (* = herhangi bir karakter, ? = tek karakter). Örnekler: *.pdf (tüm PDF dosyaları), rapor* (rapor ile başlayan), *2026* (2026 içeren). Arama sonuçlarında dosyaya çift tıklayarak açabilir veya konumunu görebilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Özellikleri ve Bilgileri",
+      "description": "Dosya hakkında detaylı bilgi almak için: Dosyaya sağ tık > Özellikler veya Alt+Enter. Özellikler penceresi: Genel sekmesi (ad, tür, boyut, konum, oluşturma/değiştirme tarihi), İzinler sekmesi (okuma/yazma/çalıştırma yetkileri), Açılış sekmesi (varsayılan uygulama). Dosya boyutu: Bayt, KB, MB, GB cinsinden gösterilir. Klasör özellikleri: İçindeki dosya sayısı ve toplam boyut. İzinler: Dosyayı kimin okuyabileceği, değiştirebileceği, çalıştırabileceği. Önemli: Sistem dosyalarının izinlerini değiştirmeyin!",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "USB Bellek ve Harici Disk Kullanımı",
+      "description": "USB bellek taktığınızda: Otomatik algılanır ve bildirim gösterilir, Sol panelde 'Aygıtlar' bölümünde görünür, Tıklayarak içeriğini açabilirsiniz. USB'ye dosya kopyalama: Normal klasör gibi kopyala/yapıştır işlemi yapın. Güvenli çıkarma (ÖNEMLİ!): USB'ye sağ tık > Güvenli Çıkar veya yanındaki çıkar simgesi. Bekleyin, 'Güvenli çıkarılabilir' mesajını görünce USB'yi çekin. Dikkat: Güvenli çıkarmadan USB'yi çekerseniz veri kaybı olabilir! Harici diskler de aynı şekilde çalışır. Disk doluysa: Yer açmak için gereksiz dosyaları silin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Sıkıştırılmış Dosyalar (ZIP, RAR, TAR)",
+      "description": "Sıkıştırılmış dosyalar, birden fazla dosyayı tek dosyada toplar ve boyutunu küçültür. ZIP dosyası açmak: Dosyaya çift tıklayın, Arşiv Yöneticisi açılır, 'Çıkart' butonuna tıklayın, hedef klasör seçin. Dosya sıkıştırmak: Dosyaları seç, sağ tık > Sıkıştır, format seç (ZIP önerilir, evrensel uyumlu), şifre ekleyebilirsiniz (isteğe bağlı). Desteklenen formatlar: ZIP, RAR, TAR, GZ, BZ2, 7Z. İpucu: E-posta eki olarak göndermeden önce dosyaları sıkıştırın, daha hızlı gönderilir. Şifreli arşiv: Hassas dosyalar için şifre koruması kullanın.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Yer İmleri - Hızlı Erişim",
+      "description": "Sık kullandığınız klasörleri yer imlerine ekleyerek hızlı erişin. Yer imi ekleme: Klasöre git, Yer İmleri > Yer İmi Ekle veya Ctrl+D. Sol panelde 'Yer İmleri' bölümünde görünür. Yer imi düzenleme: Yer İmleri > Yer İmlerini Düzenle, sıralama ve silme yapabilirsiniz. Varsayılan yer imleri: Masaüstü, Belgeler, İndirilenler, Müzik, Resimler, Videolar. Özel yer imleri: Proje klasörleri, ders materyalleri, sık kullanılan ağ konumları. İpucu: Yer imlerine anlamlı isimler verin (Klasör1 yerine 2026_Matematik_Dersleri).",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya İlişkilendirmeleri - Varsayılan Uygulamalar",
+      "description": "Her dosya türü için varsayılan uygulama belirleyebilirsiniz. Dosyaya sağ tık > Birlikte Aç > Başka Uygulama Seç. Uygulama listesi görünür, seçin ve 'Varsayılan olarak kullan' işaretleyin. Yaygın ilişkilendirmeler: PDF dosyaları → Evince (PDF görüntüleyici), Resim dosyaları → Ristretto (resim görüntüleyici), Metin dosyaları → Mousepad (metin editörü), Video dosyaları → VLC (medya oynatıcı), Müzik dosyaları → Parole (müzik çalar). Değiştirmek için: Dosya > Özellikler > Açılış sekmesi, farklı uygulama seçin. Sistem ayarlarından: Ayarlar > Tercih Edilen Uygulamalar.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Ağ Klasörleri ve Paylaşım",
+      "description": "Ağdaki diğer bilgisayarların klasörlerine erişebilirsiniz. Ağ konumuna bağlanma: Dosya > Sunucuya Bağlan, sunucu adresi girin (örn: smb://192.168.1.100/paylaşım), kullanıcı adı ve şifre girin. Bağlantı sol panelde görünür. Klasör paylaşma: Klasöre sağ tık > Paylaşım Seçenekleri, 'Bu klasörü paylaş' işaretle, izinleri ayarla (salt okunur veya yazılabilir). Güvenlik: Hassas dosyaları paylaşmayın, güçlü şifre kullanın. Bağlantıyı kesmek: Ağ konumuna sağ tık > Bağlantıyı Kes. Not: Ağ paylaşımı için sistem yöneticisi yardımı gerekebilir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Debian paket oluşturma kuralları
+# Ottoman Techs - Teknofest 2026
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	# Masaüstü dosyasını kur
+	install -D -m 0644 debian/pardus-yol-arkadasi.desktop \
+		debian/pardus-yol-arkadasi/usr/share/applications/pardus-yol-arkadasi.desktop
+	# İkon dosyasını kur
+	install -D -m 0644 resources/icons/app_icon.png \
+		debian/pardus-yol-arkadasi/usr/share/pixmaps/pardus-yol-arkadasi.png
+	# Otomatik başlatma dosyasını kur
+	install -D -m 0644 debian/pardus-yol-arkadasi-autostart.desktop \
+		debian/pardus-yol-arkadasi/etc/xdg/autostart/pardus-yol-arkadasi.desktop
+
+override_dh_installdocs:
+	dh_installdocs README.md
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build/
+	rm -rf *.egg-info/
+	find . -name __pycache__ -type d -exec rm -rf {} +
+	find . -name "*.pyc" -delete

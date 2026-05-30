@@ -1,0 +1,68 @@
+{
+  "id": "applications",
+  "title": "Uygulama Yönetimi",
+  "description": "Uygulama başlatma, yükleme ve kaldırma işlemlerini öğrenin.",
+  "category": "applications",
+  "difficulty": "beginner",
+  "estimated_time": 8,
+  "icon": "apps",
+  "prerequisites": ["desktop-basics"],
+  "steps": [
+    {
+      "title": "Uygulama Başlatma",
+      "description": "Pardus'ta uygulama başlatmanın birkaç yolu vardır: 1) Sol üst köşedeki Uygulama Menüsü'nden, 2) Paneldeki kısayollardan, 3) Masaüstü kısayollarından. En sık kullanılan yöntem Uygulama Menüsü'dür.",
+      "target": ".xfce4-panel-button",
+      "target_type": "selector",
+      "duration": 10,
+      "animation": "pulse"
+    },
+    {
+      "title": "Yazılım Merkezi",
+      "description": "Pardus Yazılım Merkezi, yeni uygulamalar yüklemenizi sağlar. Uygulama Menüsü > Sistem > Yazılım Merkezi yolunu izleyin. Burada binlerce ücretsiz uygulama bulabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Uygulama Arama",
+      "description": "Yazılım Merkezi'nde arama çubuğunu kullanarak istediğiniz uygulamayı bulabilirsiniz. Örneğin: 'ofis', 'oyun', 'müzik' gibi anahtar kelimeler yazın. Uygulamalar kategorilere göre de listelenmiştir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Uygulama Yükleme",
+      "description": "Bir uygulamayı yüklemek için: Yazılım Merkezi'nde uygulamaya tıklayın, açıklama ve ekran görüntülerini inceleyin. 'Yükle' butonuna tıklayın. Yönetici şifresi istenebilir. Yükleme tamamlandığında uygulama menüde görünür.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Sık Kullanılan Uygulamalar",
+      "description": "Pardus'ta önceden yüklü gelen bazı önemli uygulamalar: LibreOffice (ofis), Firefox (internet), Thunderbird (e-posta), GIMP (görsel düzenleme), VLC (medya oynatıcı). Bunları Uygulama Menüsü'nden bulabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Uygulama Kaldırma",
+      "description": "Kullanmadığınız uygulamaları kaldırmak için: Yazılım Merkezi'ni açın, 'Yüklü' sekmesine gidin. Kaldırmak istediğiniz uygulamayı bulun ve 'Kaldır' butonuna tıklayın. Bu işlem disk alanı kazandırır.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Panele Uygulama Ekleme",
+      "description": "Sık kullandığınız uygulamaları panele eklemek için: Panele sağ tıklayın > Panel > Yeni Öğe Ekle > Başlatıcı. Açılan pencereden uygulamayı seçin. Artık uygulamayı tek tıkla başlatabilirsiniz.",
+      "target": ".xfce4-panel",
+      "target_type": "selector",
+      "duration": 12,
+      "animation": "pulse"
+    }
+  ]
+}

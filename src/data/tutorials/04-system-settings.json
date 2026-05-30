@@ -1,0 +1,76 @@
+{
+  "id": "system-settings",
+  "title": "Sistem Ayarları",
+  "description": "Ekran, ses, ağ ve diğer sistem ayarlarını yapılandırın.",
+  "category": "settings",
+  "difficulty": "intermediate",
+  "estimated_time": 10,
+  "icon": "settings",
+  "prerequisites": ["desktop-basics"],
+  "steps": [
+    {
+      "title": "Sistem Ayarlarına Erişim",
+      "description": "Sistem ayarlarına erişmek için: Uygulama Menüsü > Ayarlar yolunu izleyin. Burada tüm sistem yapılandırma araçlarını bulabilirsiniz. Alternatif olarak, panel üzerindeki ayarlar simgesini kullanabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 8,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Ayarları",
+      "description": "Ekran çözünürlüğünü ve yönünü ayarlamak için: Ayarlar > Ekran. Burada monitör çözünürlüğü, yenileme hızı ve ekran yönünü değiştirebilirsiniz. Akıllı tahta kullanıyorsanız, dokunmatik kalibrasyonu da buradan yapabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Ses Ayarları",
+      "description": "Ses seviyesini ve ses cihazlarını yönetmek için: Panel üzerindeki hoparlör simgesine tıklayın veya Ayarlar > Ses. Çıkış ve giriş cihazlarını seçebilir, ses seviyelerini ayarlayabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Ağ Bağlantısı",
+      "description": "İnternet bağlantısını yapılandırmak için: Panel üzerindeki ağ simgesine tıklayın. Kablosuz ağlar listeden görünür, şifre girerek bağlanabilirsiniz. Kablolu bağlantılar otomatik algılanır. Ağ ayarları için Ayarlar > Ağ Bağlantıları.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Klavye ve Dil Ayarları",
+      "description": "Klavye düzenini değiştirmek için: Ayarlar > Klavye > Düzen. Türkçe Q ve F klavye düzenleri mevcuttur. Dil değiştirmek için panel üzerindeki dil göstergesine tıklayın. Kısayol: Alt+Shift veya Ctrl+Shift.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    },
+    {
+      "title": "Tarih ve Saat",
+      "description": "Sistem saatini ayarlamak için: Ayarlar > Saat ve Tarih. Otomatik saat senkronizasyonu (NTP) önerilir. Saat dilimini Türkiye olarak seçin. Panel üzerindeki saat formatını da özelleştirebilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Güç Yönetimi",
+      "description": "Enerji tasarrufu ayarları için: Ayarlar > Güç Yöneticisi. Ekran kapanma süresi, uyku modu ve pil ayarlarını yapılandırın. Akıllı tahtalarda 'Ekranı asla kapatma' seçeneği önerilir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 10,
+      "animation": "fade"
+    },
+    {
+      "title": "Yazıcı Kurulumu",
+      "description": "Yazıcı eklemek için: Ayarlar > Yazıcılar > Ekle. Pardus, çoğu yazıcıyı otomatik algılar. USB yazıcılar takıldığında otomatik kurulur. Ağ yazıcıları için IP adresi gerekebilir. Test sayfası yazdırarak kontrol edin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 12,
+      "animation": "fade"
+    }
+  ]
+}

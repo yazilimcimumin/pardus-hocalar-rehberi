@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pardus Yol Arkadaşı
+Name[tr]=Pardus Yol Arkadaşı
+Comment=İnteraktif Pardus kullanıcı rehberi
+Comment[tr]=İnteraktif Pardus kullanıcı rehberi
+GenericName=Kullanıcı Rehberi
+GenericName[tr]=Kullanıcı Rehberi
+Exec=pardus-yol-arkadasi
+Icon=pardus-yol-arkadasi
+Terminal=false
+Categories=Education;System;
+Keywords=pardus;rehber;tutorial;guide;onboarding;yardım;help;
+StartupNotify=true

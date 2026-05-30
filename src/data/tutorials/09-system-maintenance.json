@@ -1,0 +1,116 @@
+{
+  "id": "system-maintenance",
+  "title": "Sistem Bakımı ve Sorun Giderme",
+  "description": "Sistem güncellemeleri, disk temizliği, performans optimizasyonu, yedekleme ve yaygın sorunların çözümü.",
+  "category": "advanced",
+  "difficulty": "intermediate",
+  "estimated_time": 22,
+  "icon": "maintenance",
+  "prerequisites": ["desktop-basics", "system-settings"],
+  "steps": [
+    {
+      "title": "Sistem Güncellemeleri - Güvenlik ve Kararlılık",
+      "description": "Düzenli güncellemeler, sisteminizi güvenli ve kararlı tutar. Güncelleme kontrolü: Uygulama Menüsü > Sistem > Yazılım Güncelleyici veya panel üzerindeki güncelleme simgesi (turuncu/kırmızı). Otomatik kontrol: Günde bir kez otomatik kontrol edilir, bildirim gelir. Güncelleme türleri: Güvenlik güncellemeleri (kritik, hemen yükleyin), Sistem güncellemeleri (kararlılık, hata düzeltmeleri), Uygulama güncellemeleri (yeni özellikler). Güncelleme süreci: Güncelleyici'yi açın, 'Güncellemeleri Kontrol Et', listede güncellemeleri görün, 'Güncellemeleri Yükle', yönetici şifresi girin, bekleyin (5-30 dakika). Yeniden başlatma: Bazı güncellemeler yeniden başlatma gerektirir, bildirim gelir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Disk Alanı Yönetimi",
+      "description": "Disk dolduğunda sistem yavaşlar. Disk kullanımı kontrolü: Dosya Yöneticisi'nde alt durum çubuğu, boş alan gösterir. Disk Kullanımı Analizi: Uygulama Menüsü > Yardımcı Programlar > Disk Kullanımı Analizi (Baobab), hangi dosyaların yer kapladığını gösterir. Temizlik önerileri: Çöp kutusunu boşaltın (masaüstü > Çöp Kutusu > sağ tık > Boşalt), İndirilenler klasörünü temizleyin (eski dosyaları silin), Gereksiz uygulamaları kaldırın (Yazılım Merkezi > Yüklü), Eski çekirdekleri temizleyin (Terminal: sudo apt autoremove), Önbellek temizliği (Terminal: sudo apt clean). Uyarı: Sistem dosyalarını silmeyin!",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Performans İzleme - Sistem Monitörü",
+      "description": "Sistem Monitörü, kaynak kullanımını gösterir. Açmak için: Uygulama Menüsü > Sistem > Sistem Monitörü veya Ctrl+Alt+Delete. Sekmeler: İşlemler (çalışan programlar), Kaynaklar (CPU, RAM, Ağ grafiği), Dosya Sistemleri (disk kullanımı). İşlemler sekmesi: İşlem adı, CPU kullanımı (%), Bellek kullanımı (MB), İşlem ID (PID). İşlem sonlandırma: Yavaşlatan veya donmuş programı seç, 'İşlemi Sonlandır' (dikkatli kullanın!). Kaynaklar sekmesi: CPU kullanımı (çok yüksekse sistem yavaşlar), Bellek kullanımı (RAM doluysa takas kullanılır, yavaşlar), Ağ kullanımı (indirme/yükleme hızı). Performans ipuçları: Gereksiz programları kapatın, başlangıçta açılan programları azaltın, hafif uygulamalar kullanın.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Yedekleme - Veri Kaybını Önleyin",
+      "description": "Düzenli yedekleme, veri kaybını önler. Yedekleme yöntemleri: Manuel kopyalama (önemli dosyaları USB/harici diske kopyalayın), Deja Dup (otomatik yedekleme aracı), Bulut depolama (Google Drive, Dropbox). Deja Dup kullanımı: Uygulama Menüsü > Yardımcı Programlar > Yedekler, 'Yedekleme Konumu' seç (harici disk, ağ konumu), 'Yedeklenecek Klasörler' seç (Belgeler, Resimler vb.), 'Yoksayılacak Klasörler' (İndirilenler, Çöp Kutusu), 'Şimdi Yedekle' veya otomatik zamanlama (günlük, haftalık). Geri yükleme: Deja Dup > Geri Yükle, yedekleme tarihi seç, dosyaları geri yükle. Yedekleme sıklığı: Önemli dosyalar için haftalık, kritik veriler için günlük.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Yazılım Yönetimi - Kurulum ve Kaldırma",
+      "description": "Yazılım Merkezi, uygulama yönetiminin merkezi. Uygulama arama: Yazılım Merkezi'ni açın, arama kutusuna yazın veya kategorilere göz atın. Uygulama bilgileri: Uygulamaya tıklayın, açıklama, ekran görüntüleri, yorumlar, boyut, lisans. Kurulum: 'Yükle' butonu, yönetici şifresi, bekleme (1-10 dakika). Yüklü uygulamalar: 'Yüklü' sekmesi, tüm yüklü uygulamalar. Kaldırma: Uygulamayı bulun, 'Kaldır' butonu, onay. Güncelleme: 'Güncellemeler' sekmesi, uygulama güncellemeleri. Komut satırı (gelişmiş): Terminal > sudo apt install paket-adi (kurulum), sudo apt remove paket-adi (kaldırma), sudo apt update (paket listesi güncelle), sudo apt upgrade (tüm paketleri güncelle).",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Başlangıç Uygulamaları - Hızlı Açılış",
+      "description": "Başlangıçta otomatik açılan uygulamalar, açılış süresini etkiler. Yönetim: Ayarlar > Oturum ve Başlangıç > Uygulama Otomatik Başlatma. Mevcut uygulamalar: Liste halinde, açıklama, etkin/devre dışı. Devre dışı bırakma: Gereksiz uygulamaların işaretini kaldırın (örn: Bluetooth yöneticisi, güncelleme bildirici). Yeni ekleme: 'Ekle' butonu, uygulama adı, komut, açıklama. Öneriler: Sadece gerekli uygulamaları başlangıçta açın, sistem daha hızlı açılır. Yaygın başlangıç uygulamaları: Ağ yöneticisi (gerekli), Ses kontrolü (gerekli), Güncelleme bildirici (isteğe bağlı), Bulut senkronizasyon (isteğe bağlı). Test: Bilgisayarı yeniden başlatın, açılış süresini kontrol edin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Sorun Giderme - Donma ve Yavaşlama",
+      "description": "Sistem donması veya yavaşlaması: Nedenleri: Yüksek CPU/RAM kullanımı, disk dolmuş, çok fazla açık program, eski donanım. Çözümler: Sistem Monitörü'nü açın, yüksek kaynak kullanan programı bulun, sonlandırın. Gereksiz programları kapatın. Disk alanı açın (temizlik). Bilgisayarı yeniden başlatın (geçici sorunlar çözülür). Güncellemeleri yükleyin. Grafik sürücüsü sorunları: Ayarlar > Ek Sürücüler, önerilen sürücüyü yükleyin. Ağ sorunları: Ağ simgesine tıklayın, bağlantıyı kontrol edin, yeniden bağlanın, router'ı yeniden başlatın. Ses sorunu: Ses seviyesini kontrol edin, doğru çıkış cihazını seçin (Ayarlar > Ses).",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Uygulama Çökmesi - Kurtarma",
+      "description": "Uygulama dondu veya yanıt vermiyor: Belirti: Pencere gri, fare tıklamaları işe yaramıyor, 'Yanıt Vermiyor' mesajı. Çözüm 1 (Bekleyin): Bazen uygulama yoğun işlem yapıyor, 1-2 dakika bekleyin. Çözüm 2 (Zorla Kapat): Başlık çubuğuna sağ tık > Zorla Kapat veya Alt+F4. Çözüm 3 (Sistem Monitörü): Sistem Monitörü'nü açın, uygulamayı bulun, 'İşlemi Sonlandır'. Çözüm 4 (Terminal): Terminal açın, 'ps aux | grep uygulama-adi' (işlem ID bulun), 'kill -9 PID' (işlemi sonlandır). Veri kaybı: Zorla kapatılan uygulamalarda kaydedilmemiş veriler kaybolabilir, düzenli kaydetme alışkanlığı edinin. Hata raporu: Uygulama çöktüğünde hata raporu penceresi açılabilir, 'Rapor Gönder' (geliştiricilere yardımcı olur).",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Şifre Yönetimi ve Güvenlik",
+      "description": "Kullanıcı şifresi değiştirme: Ayarlar > Kullanıcılar, kullanıcınıza tıklayın, 'Şifre' > 'Şifre Değiştir', mevcut şifre, yeni şifre (2 kez). Güçlü şifre: En az 12 karakter, büyük/küçük harf, sayı, özel karakter, tahmin edilemez. Şifre yöneticisi: KeePassXC (Yazılım Merkezi'nden), tüm şifrelerinizi güvenle saklayın, ana şifre ile koruyun. Otomatik oturum açma: Ayarlar > Kullanıcılar > Otomatik Oturum Açma (sadece ev bilgisayarında, güvenlik riski). Ekran kilidi: Ctrl+Alt+L, bilgisayardan ayrılırken kilitleyin. Ekran koruyucu şifresi: Ayarlar > Ekran Koruyucu, 'Kilit' seçeneği, süre ayarı. Misafir oturumu: Geçici kullanıcılar için misafir hesabı oluşturun, kişisel dosyalarınız korunur.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Terminal Temelleri - Komut Satırı",
+      "description": "Terminal, güçlü komut satırı arayüzüdür. Açmak için: Ctrl+Alt+T veya Uygulama Menüsü > Sistem > Terminal. Temel komutlar: pwd (mevcut dizin), ls (dosyaları listele), cd klasor (dizin değiştir), cd .. (üst dizin), mkdir klasor (klasör oluştur), rm dosya (dosya sil), cp kaynak hedef (kopyala), mv kaynak hedef (taşı), cat dosya (dosya içeriğini göster), nano dosya (metin editörü), clear (ekranı temizle), exit (terminal'i kapat). Yönetici yetkileri: sudo komut (yönetici olarak çalıştır), şifre ister. Dikkat: sudo ile dikkatli olun, sistem dosyalarını etkileyebilir. Komut geçmişi: Yukarı ok tuşu, önceki komutlar. Tab tamamlama: Komut/dosya adını yazmaya başlayın, Tab tuşu, otomatik tamamlar.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Sistem Bilgileri ve Donanım",
+      "description": "Sistem bilgilerini görüntüleme: Ayarlar > Hakkında, Pardus versiyonu, çekirdek versiyonu, işlemci, bellek, disk. Detaylı donanım bilgisi: Terminal > lscpu (işlemci), free -h (bellek), df -h (disk), lsusb (USB cihazlar), lspci (PCI cihazlar). Hardinfo (grafik arayüz): Yazılım Merkezi'nden yükle, detaylı donanım raporu, benchmark. Sürücü kontrolü: Ayarlar > Ek Sürücüler, grafik kartı, WiFi, Bluetooth sürücüleri. Sistem günlükleri: Uygulama Menüsü > Sistem > Günlük Dosyaları, sistem olayları, hata mesajları (sorun giderme için). Donanım testi: Memtest86+ (bellek testi, başlangıç menüsünden), Disk Utility (disk sağlığı).",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Sistem Geri Yükleme ve Kurtarma",
+      "description": "Sistem bozulması durumunda: Timeshift (sistem anlık görüntüsü): Yazılım Merkezi'nden yükle, sistem anlık görüntüsü al (günlük, haftalık), sorun olduğunda geri yükle. Kurtarma modu: Bilgisayarı başlatırken Shift tuşu, GRUB menüsü, 'Advanced options' > 'Recovery mode', kök kabuk (root shell), dosya sistemi onarımı. Canlı USB: Pardus USB'si ile başlat, dosyalarınızı yedekleyin, sistem onarımı. Yeniden kurulum (son çare): Tüm verilerinizi yedekleyin, Pardus'u yeniden kurun, temiz başlangıç. Önleme: Düzenli yedekleme, güncellemeleri yükleme, güvenilir kaynaklardan yazılım yükleme, sistem dosyalarını değiştirmeme.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Enerji Yönetimi - Pil Ömrü",
+      "description": "Dizüstü bilgisayarlarda pil ömrü önemlidir. Güç Yöneticisi: Ayarlar > Güç Yöneticisi, profiller (AC gücü, pil). Ekran parlaklığı: En büyük enerji tüketici, parlaklığı azaltın (Fn+F5/F6 veya panel). Ekran kapanma: Belirli süre sonra ekranı kapat (5-10 dakika). Uyku modu: Kapak kapatıldığında uyku modu, hızlı uyanma, enerji tasarrufu. Hazırda bekleme: Uzun süre kullanmayacaksanız, RAM'i diske yazar, güç kesintisine karşı güvenli. İşlemci frekansı: Güç tasarrufu modunda işlemci yavaşlar, pil ömrü uzar. Arka plan uygulamaları: Gereksiz uygulamaları kapatın. Bluetooth/WiFi: Kullanmıyorsanız kapatın. TLP (gelişmiş): Terminal > sudo apt install tlp, otomatik enerji optimizasyonu.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    }
+  ]
+}

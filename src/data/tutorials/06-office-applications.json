@@ -1,0 +1,124 @@
+{
+  "id": "office-applications",
+  "title": "Ofis Uygulamaları - LibreOffice",
+  "description": "LibreOffice Writer, Calc, Impress kullanarak döküman, tablo ve sunum hazırlama. Öğretmenler için kapsamlı ofis rehberi.",
+  "category": "applications",
+  "difficulty": "intermediate",
+  "estimated_time": 25,
+  "icon": "office",
+  "prerequisites": ["desktop-basics", "file-operations"],
+  "steps": [
+    {
+      "title": "LibreOffice'e Giriş - Ücretsiz Ofis Paketi",
+      "description": "LibreOffice, Microsoft Office'e alternatif, tamamen ücretsiz ve açık kaynaklı ofis paketidir. Pardus'ta önceden yüklü gelir. Bileşenler: Writer (kelime işlemci, Word benzeri), Calc (elektronik tablo, Excel benzeri), Impress (sunum, PowerPoint benzeri), Draw (çizim), Math (formül editörü), Base (veritabanı). Uyumluluk: Microsoft Office dosyalarını (.docx, .xlsx, .pptx) açabilir ve kaydedebilir. Açmak için: Uygulama Menüsü > Ofis > LibreOffice. Avantajlar: Ücretsiz, reklamsız, virüssüz, düzenli güncellenen, Türkçe destekli.",
+      "target": null,
+      "target_type": "window",
+      "duration": 20,
+      "animation": "fade"
+    },
+    {
+      "title": "LibreOffice Writer - Kelime İşlemci Temelleri",
+      "description": "Writer, döküman hazırlamak için kullanılır. Açmak için: Uygulama Menüsü > Ofis > LibreOffice Writer. Arayüz: Üst menü çubuğu (Dosya, Düzen, Görünüm vb.), Araç çubukları (hızlı erişim butonları), Cetvel (kenar boşlukları), Çalışma alanı (yazı yazılan alan), Durum çubuğu (sayfa, kelime sayısı). Temel işlemler: Yazı yazma, yazı tipi değiştirme (Arial, Times New Roman vb.), yazı boyutu (10, 12, 14 punto), kalın/italik/altı çizili, renk değiştirme, hizalama (sola, ortaya, sağa, iki yana).",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Writer - Döküman Biçimlendirme",
+      "description": "Profesyonel dökümanlar için biçimlendirme önemlidir. Paragraf ayarları: Biçim > Paragraf, satır aralığı (tek, 1.5, çift), paragraf aralığı, girinti (ilk satır, asılı). Sayfa düzeni: Biçim > Sayfa, sayfa boyutu (A4, Letter), yönlendirme (dikey, yatay), kenar boşlukları. Başlıklar: Başlık stilleri kullanın (Başlık 1, Başlık 2, Başlık 3), otomatik içindekiler için gerekli. Listeler: Madde işaretli liste, numaralı liste, alt listeler. Tablolar: Tablo > Tablo Ekle, satır/sütun sayısı, tablo biçimlendirme. Resim ekleme: Ekle > Resim, dosyadan seç, boyutlandır, konumlandır.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Writer - Sınav ve Çalışma Kağıdı Hazırlama",
+      "description": "Öğretmenler için sınav kağıdı hazırlama ipuçları: Başlık: Okul adı, ders adı, sınıf, tarih, süre bilgileri. Öğrenci bilgileri: Ad-Soyad, Numara alanları (tablo kullanın). Sorular: Numaralı liste kullanın, her soru için yeterli boşluk bırakın. Çoktan seçmeli: Alt listeler veya tablo kullanın (A, B, C, D seçenekleri). Cevap anahtarı: Ayrı sayfada hazırlayın, sayfa sonu ekleyin (Ekle > Sayfa Sonu). Şablonlar: Hazır şablonlar kullanın (Dosya > Şablonlar), kendi şablonunuzu kaydedin (Dosya > Şablon Olarak Kaydet). Yazdırma: Dosya > Yazdır, kopya sayısı, çift taraflı seçenekleri.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Writer - Gelişmiş Özellikler",
+      "description": "Yazım denetimi: Araçlar > Yazım Denetimi (F7), Türkçe sözlük otomatik yüklü, kırmızı altı çizili kelimeler hatalı. Bul ve değiştir: Düzen > Bul ve Değiştir (Ctrl+H), toplu değiştirme. Üst bilgi/Alt bilgi: Ekle > Üst Bilgi/Alt Bilgi, sayfa numarası, tarih, döküman adı ekleyin. Sayfa numaralandırma: Ekle > Alan > Sayfa Numarası, farklı sayfa numaralandırma stilleri. İçindekiler: Ekle > İçindekiler ve Dizinler, otomatik içindekiler (başlık stilleri kullanılmalı). Dipnot/Son not: Ekle > Dipnot, akademik çalışmalar için. Köprü: Ekle > Köprü, web sitesi veya e-posta bağlantısı. Yorum: Ekle > Yorum, işbirliği için notlar.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "LibreOffice Calc - Elektronik Tablo Temelleri",
+      "description": "Calc, hesaplama ve veri analizi için kullanılır. Açmak için: Uygulama Menüsü > Ofis > LibreOffice Calc. Temel kavramlar: Hücre (tek kutu), Satır (yatay), Sütun (dikey), Çalışma sayfası (sayfa), Çalışma kitabı (dosya). Hücre adresi: Sütun harfi + Satır numarası (örn: A1, B5, C10). Veri girişi: Hücreye tıkla, yaz, Enter. Veri türleri: Metin, sayı, tarih, formül. Hücre biçimlendirme: Yazı tipi, renk, kenarlık, hizalama, sayı formatı (para birimi, yüzde, tarih). Sütun/satır ekleme: Sağ tık > Satır/Sütun Ekle. Sütun genişliği: Sütun başlığı arasındaki çizgiyi sürükle.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Calc - Formüller ve Fonksiyonlar",
+      "description": "Calc'ın gücü formüllerdir. Formül yazma: Hücreye = işareti ile başla. Temel işlemler: Toplama (+), Çıkarma (-), Çarpma (*), Bölme (/), Üs (^). Örnek: =A1+B1 (A1 ve B1'i topla). Hücre referansı: Başka hücreleri kullan (=A1*2). Yaygın fonksiyonlar: TOPLA (=TOPLA(A1:A10) - A1'den A10'a kadar topla), ORTALAMA (=ORTALAMA(A1:A10)), MAKSİMUM (=MAKS(A1:A10)), MİNİMUM (=MİN(A1:A10)), SAYI (=SAYI(A1:A10) - hücre sayısı), EĞER (=EĞER(A1>50;\"Geçti\";\"Kaldı\")). Formül kopyalama: Hücre sağ alt köşesini sürükle, otomatik güncellenir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Calc - Not Çizelgesi ve Öğrenci Takibi",
+      "description": "Öğretmenler için not çizelgesi hazırlama: Başlıklar: Öğrenci No, Ad Soyad, Sınav 1, Sınav 2, Proje, Ortalama, Durum. Veri girişi: Öğrenci bilgilerini ve notları girin. Ortalama hesaplama: =ORTALAMA(C2:E2) formülü, kopyalayarak tüm öğrencilere uygulayın. Durum belirleme: =EĞER(F2>=50;\"Geçti\";\"Kaldı\") formülü. Koşullu biçimlendirme: Biçim > Koşullu Biçimlendirme, 50'nin altındaki notları kırmızı yap. Sıralama: Veri > Sırala, nota göre sırala. Filtreleme: Veri > Otomatik Filtre, belirli öğrencileri göster. Grafik: Veriyi seç, Ekle > Grafik, sütun/pasta grafik.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "LibreOffice Impress - Sunum Hazırlama",
+      "description": "Impress, sunum hazırlamak için kullanılır. Açmak için: Uygulama Menüsü > Ofis > LibreOffice Impress. Yeni sunum: Dosya > Yeni > Sunum, şablon seç veya boş sunum. Slayt düzenleri: Başlık slaydı, başlık ve içerik, iki sütun, boş slayt. Slayt ekleme: Sağ tık > Yeni Slayt veya Ekle > Yeni Slayt. Metin ekleme: Metin kutusuna tıkla, yaz. Yazı biçimlendirme: Yazı tipi, boyut, renk, hizalama. Madde işaretleri: Otomatik madde işaretli liste. Resim ekleme: Ekle > Resim, dosyadan seç, boyutlandır. Şekiller: Ekle > Şekil, dikdörtgen, daire, ok vb.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Impress - Etkili Sunum Tasarımı",
+      "description": "Profesyonel sunum için tasarım ilkeleri: Tema seçimi: Slayt > Slayt Tasarımı, hazır temalar, tutarlı renk şeması. Yazı tipi: Okunabilir fontlar (Arial, Calibri), başlık için 32-44 punto, içerik için 24-32 punto. Renk: Yüksek kontrast (koyu zemin-açık yazı veya tersi), fazla renk kullanmayın (3-4 renk yeterli). İçerik: Her slayt tek bir fikir, kısa cümleler, madde işaretleri, fazla metin yok. Görseller: Yüksek çözünürlüklü resimler, telif hakkı olmayan görseller, görseller metni desteklemeli. Animasyon: Slayt > Animasyon, abartmayın, basit geçişler (solma, kayma). Tutarlılık: Tüm slaytlarda aynı stil, aynı yazı tipi, aynı düzen.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Impress - Ders Sunumu Hazırlama",
+      "description": "Öğretmenler için ders sunumu ipuçları: Başlangıç slaydı: Ders adı, konu, tarih, öğretmen adı. İçindekiler: Konular listesi, her konu için bağlantı (Ekle > Köprü). Konu slaytları: Her konu için 2-5 slayt, başlık, açıklama, örnek, görsel. Örnekler: Somut örnekler, günlük hayattan ilişkilendirme, resim/diyagram kullanın. Alıştırmalar: Soru slaytları, öğrenci katılımı, cevapları gizli tutun (animasyon ile göster). Özet: Konuların tekrarı, önemli noktalar, öğrenme çıktıları. Kaynaklar: Kullanılan kaynaklar, ek okuma önerileri. Video ekleme: Ekle > Video ve Ses, yerel dosya veya YouTube bağlantısı.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Impress - Sunum Gösterimi",
+      "description": "Sunumu göstermek için: F5 tuşu veya Slayt Gösterisi > Slayt Gösterisini Başlat. Tam ekran modunda açılır. Kontroller: İleri (Space, Enter, Sağ ok, Fare tıklaması), Geri (Backspace, Sol ok), Belirli slayta git (sayı yaz + Enter), Çizim modu (Ctrl+P, fare ile çizim yapın), Slayt gösterisinden çık (Escape). Sunum ipuçları: Göz teması kurun, yavaş konuşun, slaytları okumayın, öğrencilere soru sorun. Sunum notları: Görünüm > Notlar, her slayt için not yazın, sadece siz görürsünüz. İki ekran: Projektör + dizüstü, Slayt Gösterisi > Sunum Ayarları, sunum ekranı seçin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Dosya Formatları ve Uyumluluk",
+      "description": "LibreOffice dosya formatları: ODF (Açık Döküman Formatı): .odt (Writer), .ods (Calc), .odp (Impress) - varsayılan, açık standart. Microsoft Office: .docx (Word), .xlsx (Excel), .pptx (PowerPoint) - uyumlu, kaydetme ve açma. PDF: .pdf - evrensel, düzenlenemez, yazdırma için ideal. Kaydetme: Dosya > Kaydet (Ctrl+S), ilk kayıtta format seçin. Farklı kaydet: Dosya > Farklı Kaydet, format değiştir. PDF olarak dışa aktar: Dosya > PDF Olarak Dışa Aktar, ayarlar (sayfa aralığı, sıkıştırma, güvenlik). Uyumluluk: Microsoft Office dosyalarını açarken biçimlendirme kayması olabilir, kontrol edin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Yazdırma ve Sayfa Düzeni",
+      "description": "Döküman yazdırma: Dosya > Yazdır (Ctrl+P). Yazdırma ayarları: Yazıcı seçimi (ağ yazıcısı, PDF yazıcı), Sayfa aralığı (tümü, mevcut, belirli sayfalar), Kopya sayısı, Çift taraflı (kağıt tasarrufu), Renkli/Siyah-beyaz, Sayfa düzeni (sayfa başına birden fazla sayfa). Baskı önizleme: Dosya > Baskı Önizleme, nasıl görüneceğini kontrol edin. PDF olarak kaydet: Yazıcı olarak 'PDF Yazıcı' seçin, dosya olarak kaydet. Sayfa düzeni: Biçim > Sayfa, kenar boşlukları, üst bilgi/alt bilgi yüksekliği. Kağıt boyutu: A4 (standart), A3 (büyük), Letter (ABD standardı).",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    }
+  ]
+}

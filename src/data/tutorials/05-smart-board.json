@@ -1,0 +1,148 @@
+{
+  "id": "smart-board",
+  "title": "Akıllı Tahta Kullanımı ve Bakımı",
+  "description": "Pardus akıllı tahta özellikleri, dokunmatik ekran kullanımı, kalibrasyon, bakım, temizlik ve sorun giderme.",
+  "category": "advanced",
+  "difficulty": "intermediate",
+  "estimated_time": 30,
+  "icon": "touchscreen",
+  "prerequisites": ["desktop-basics", "applications"],
+  "steps": [
+    {
+      "title": "Akıllı Tahta Nedir? - Temel Bilgiler",
+      "description": "Pardus akıllı tahtalar, FATİH Projesi kapsamında okullara dağıtılan, eğitim için özel tasarlanmış dokunmatik ekranlı bilgisayarlardır. Özellikler: 65-86 inç büyük dokunmatik ekran, 10 noktaya kadar çoklu dokunuş, kalem ve parmak desteği, yerleşik hoparlörler, HDMI/USB bağlantıları, Pardus işletim sistemi. Avantajlar: İnteraktif ders anlatımı, multimedya içerik gösterimi, öğrenci katılımı, dijital içerik paylaşımı. Bu rehber, akıllı tahtanızı etkili kullanmanız ve bakımını yapmanız için tüm bilgileri içerir.",
+      "target": null,
+      "target_type": "window",
+      "duration": 18,
+      "animation": "fade"
+    },
+    {
+      "title": "Akıllı Tahtayı İlk Açılış - Başlangıç Kontrolü",
+      "description": "Akıllı tahtayı açmadan önce: Elektrik bağlantısını kontrol edin (prize takılı mı?), Ana güç düğmesini bulun (genellikle alt veya yan kenarda), Uzaktan kumandayı hazır bulundurun. Açılış: Ana güç düğmesine basın veya uzaktan kumandada güç tuşu, Ekranda Pardus logosu görünmeli (30-60 saniye), Oturum açma ekranı gelecek, kullanıcı adı ve şifre girin. İlk kontroller: Dokunmatik çalışıyor mu? (ekrana dokunun), Ses çalışıyor mu? (ses seviyesini test edin), İnternet bağlantısı var mı? (ağ simgesine bakın). Sorun varsa: Güç kablosunu kontrol edin, 10 saniye bekleyip tekrar açın, IT destek birimine bildirin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 22,
+      "animation": "fade"
+    },
+    {
+      "title": "Dokunmatik Ekran Kullanımı - Temel Hareketler",
+      "description": "Dokunmatik ekran hareketleri: TEK DOKUNUŞ = Sol fare tıklaması (dosya seç, buton tıkla), UZUN BASMA (2 saniye) = Sağ fare tıklaması (menü aç), ÇİFT DOKUNUŞ = Çift tıklama (dosya aç, uygulama başlat), SÜRÜKLEME = Parmağınızı ekranda kaydırın (pencere taşı, metin seç), İKİ PARMAK KAYDIRMA = Scroll (sayfa yukarı/aşağı), İKİ PARMAK YAKLAŞTIR/UZAKLAŞTIR = Zoom (harita, resim, PDF), ÜÇ PARMAK KAYDIRMA = Masaüstleri arası geçiş. Kalem kullanımı: Özel kalem daha hassas, yazı yazmak için ideal, kalem ucu ince nokta, silgi ucu (bazı kalemlerde). İpucu: Parmak veya kalem kullanabilirsiniz, ikisi de aynı anda çalışır.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Dokunmatik Ekran Çalışmıyor - İlk Adımlar",
+      "description": "Dokunmatik yanıt vermiyorsa: 1. FARE İLE KONTROL: USB fare takın, sistemin çalıştığını doğrulayın. 2. YENİDEN BAŞLATMA: Uygulama Menüsü > Oturumu Kapat > Yeniden Başlat (fare ile), çoğu sorun çözülür. 3. EKRAN TEMİZLİĞİ: Ekran kirli olabilir, mikrofiber bezle temizleyin (detaylı temizlik adımı ileride). 4. DOKUNMATIK SÜRÜCÜ KONTROLÜ: Terminal açın (Ctrl+Alt+T), 'xinput list' yazın, dokunmatik cihaz listede görünmeli. 5. KALİBRASYON: Dokunmatik yanlış noktaya tıklıyorsa kalibrasyon gerekir (sonraki adımda). Hala çalışmıyorsa: Donanım arızası olabilir, teknik servise bildirin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Dokunmatik Kalibrasyon - Hassasiyet Ayarı",
+      "description": "Kalibrasyon, dokunmatik ekranın doğru noktaya tıklamasını sağlar. Ne zaman gerekir: Dokunduğunuz yer ile tıklanan yer farklıysa, Ekran kenarları çalışmıyorsa, Yeni kurulumdan sonra. Kalibrasyon adımları: 1. Terminal açın (Ctrl+Alt+T). 2. 'xinput_calibrator' yazın (kurulu değilse: sudo apt install xinput-calibrator). 3. Kalibrasyon penceresi açılır, ekranda 4 köşede hedefler görünür. 4. Her hedefe sırayla dokunun (tam ortasına, hassas olun). 5. Kalibrasyon tamamlandı mesajı, ayarlar otomatik kaydedilir. 6. Yeniden başlatın, test edin. Alternatif: Ayarlar > Dokunmatik Ekran > Kalibre Et (grafik arayüz). Not: Kalibrasyon her kullanıcı için ayrı yapılmalı.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Temizliği - DOĞRU YÖNTEMLERİ ÖĞRENİN!",
+      "description": "UYARI: Yanlış temizlik ekrana zarar verir! DOĞRU YÖNTEM: 1. KAPATMA: Akıllı tahtayı tamamen kapatın (elektrik tehlikesi ve lekeler daha iyi görünür). 2. KURU TEMİZLİK: Mikrofiber bez (yumuşak, tüy bırakmaz), kuru bezle hafifçe silin, tozları alın. 3. ISLAK TEMİZLİK (gerekirse): Mikrofiber bezi hafif nemlendir (DAMLATMAYIN!), Sadece su veya özel ekran temizleyici, dairesel hareketlerle silin, hemen kuru bezle kurulayın. YAPMAYIN: Cam temizleyici (amonyak içerir, ekrana zarar verir), Alkol, tiner, aseton (ekran kaplamasını bozar), Kağıt havlu (çizer), Aşırı basınç (ekrana zarar verir), Doğrudan sıvı sıkma (içeri sızar). Temizlik sıklığı: Her gün kuru silme, haftada bir ıslak temizlik. Önemli: Temiz ekran = daha iyi dokunmatik hassasiyet!",
+      "target": null,
+      "target_type": "window",
+      "duration": 28,
+      "animation": "fade"
+    },
+    {
+      "title": "Dokunmatik Yazılım Ayarları - Hassasiyet",
+      "description": "Dokunmatik davranışını özelleştirin: Ayarlar > Fare ve Dokunmatik Yüzey (veya Dokunmatik Ekran). Ayarlanabilir özellikler: DOKUNMA HASSASİYETİ: Hafif/orta/sert dokunma, öğretmen tercihi. ÇİFT DOKUNMA HIZI: Hızlı/yavaş çift tıklama. SÜRÜKLEME: Dokunup sürükleme etkin/devre dışı. PALMREJECTİON (Avuç Reddi): Yanlışlıkla avuç temasını yoksay (kalem kullanırken önemli). DOKUNMA SESİ: Dokunma sesi efekti açık/kapalı. Terminal ile gelişmiş ayarlar: 'xinput list' (cihaz ID öğren), 'xinput list-props [ID]' (özellikler), 'xinput set-prop [ID] [özellik] [değer]' (ayarla). Örnek: Dokunma hassasiyeti artırma: xinput set-prop [ID] 'Coordinate Transformation Matrix' 1.2 0 0 0 1.2 0 0 0 1. Not: Ayarları değiştirdikten sonra test edin!",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Klavyesi - Fiziksel Klavye Olmadan Yazma",
+      "description": "Akıllı tahtada fiziksel klavye olmayabilir, ekran klavyesi kullanın. Ekran klavyesi açma: Yöntem 1: Uygulama Menüsü > Yardımcı Programlar > Onboard (veya Florence). Yöntem 2: Panel > Erişilebilirlik simgesi > Ekran Klavyesi. Yöntem 3: Terminal > onboard (komut). Kullanım: Metin alanına dokunun, ekran klavyesi otomatik açılır (ayarlanmışsa), tuşlara dokunarak yazın, Shift (büyük harf), Ctrl/Alt (kısayollar), sayı/sembol tuşları. Otomatik başlatma: Ayarlar > Oturum ve Başlangıç > Uygulama Otomatik Başlatma > Ekle > Komut: onboard. Ayarlar: Onboard > Tercihler, klavye boyutu, şeffaflık, otomatik göster/gizle, ses efekti. Alternatif: Florence (daha basit), Matchbox-keyboard (minimal). İpucu: Ekran klavyesi ekranın altında durur, gerektiğinde taşıyabilirsiniz.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Çoklu Dokunuş Hareketleri - İleri Seviye",
+      "description": "Akıllı tahta çoklu dokunuşu destekler (10 noktaya kadar): İKİ PARMAK ZOOM: İki parmağınızı birbirine yaklaştırın (zoom out) veya uzaklaştırın (zoom in), harita, resim, PDF'de çalışır. İKİ PARMAK DÖNDÜRME: İki parmağınızı döndürme hareketi yapın, resim/harita döner. ÜÇ PARMAK KAYDIRMA: Üç parmakla yukarı/aşağı kaydırın, masaüstleri arası geçiş. DÖRT PARMAK KAYDIRMA: Dört parmakla yukarı kaydırın, tüm pencereleri göster (Exposé). BEŞPARMAK TOPLAMA: Beş parmağı ortaya doğru kapatın, masaüstünü göster. Uygulamalarda kullanım: Google Maps (zoom, döndürme), PDF görüntüleyici (zoom, sayfa çevirme), Resim görüntüleyici (zoom, döndürme), Web tarayıcı (zoom, scroll). Not: Tüm uygulamalar çoklu dokunuşu desteklemez, deneyerek öğrenin.",
+      "target": null,
+      "target_type": "window",
+      "duration": 24,
+      "animation": "fade"
+    },
+    {
+      "title": "Dokunmatik Sorunları - Yaygın Problemler ve Çözümler",
+      "description": "SORUN 1: Dokunmatik yavaş yanıt veriyor. ÇÖZÜM: Sistem yoğun, gereksiz programları kapatın, bilgisayarı yeniden başlatın. SORUN 2: Bazı alanlar çalışmıyor. ÇÖZÜM: Kalibrasyon yapın, ekranı temizleyin (parmak izi/kir hassasiyeti azaltır). SORUN 3: Yanlış yere tıklıyor. ÇÖZÜM: Kalibrasyon gerekli, xinput_calibrator çalıştırın. SORUN 4: Çift tıklama olmuyor. ÇÖZÜM: Ayarlar > Fare > Çift tıklama hızı, yavaşlatın. SORUN 5: Sürükleme çalışmıyor. ÇÖZÜM: Ayarlar > Dokunmatik > Sürükleme etkin, kontrol edin. SORUN 6: Kalem çalışmıyor. ÇÖZÜM: Kalem pili bitmiş olabilir, değiştirin, kalem ucu aşınmış olabilir, değiştirin. SORUN 7: Dokunmatik tamamen çalışmıyor. ÇÖZÜM: Sürücü sorunu, Terminal > sudo apt install xserver-xorg-input-evdev, yeniden başlat. Hala çözülmediyse: Donanım arızası, teknik servis.",
+      "target": null,
+      "target_type": "window",
+      "duration": 28,
+      "animation": "fade"
+    },
+    {
+      "title": "Akıllı Tahta Bakımı - Uzun Ömür İçin",
+      "description": "Günlük bakım: Her ders sonunda ekranı kuru bezle silin, kalem ve silgiyi yerine koyun, gereksiz programları kapatın, düzenli kapatma yapın (güç düğmesi ile). Haftalık bakım: Ekranı nemli bezle temizleyin (özel temizleyici), kablo bağlantılarını kontrol edin, havalandırma deliklerini kontrol edin (toz birikmemeli). Aylık bakım: Sistem güncellemelerini yükleyin, disk temizliği yapın, gereksiz dosyaları silin, yedekleme yapın (önemli dosyalar). Yıllık bakım: Profesyonel temizlik (teknik servis), donanım kontrolü, yazılım optimizasyonu. YAPMAYIN: Ekrana sert cisimlerle vurmayın, sıvı dökmeyın, güç kablosunu çekiştirmeyin, havalandırma deliklerini kapamayın, uzun süre açık bırakmayın (enerji tasarrufu). Ömür: Düzenli bakımla 7-10 yıl sorunsuz kullanım.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Beyaz Tahta Uygulaması - Dijital Yazı Tahtası",
+      "description": "Pardus'ta yerleşik beyaz tahta uygulaması: Xournal++ (gelişmiş) veya Gromit-MPX (basit). Xournal++ açma: Uygulama Menüsü > Eğitim > Xournal++ (kurulu değilse: Yazılım Merkezi'nden yükle). Araçlar: KALEM: Farklı kalınlıklar (ince, orta, kalın), farklı renkler (siyah, kırmızı, mavi, yeşil), düz çizgi/eğri çizgi. SİLGİ: Çizgileri sil, tüm sayfayı temizle. ŞEKİLLER: Dikdörtgen, daire, ok, çizgi (geometri dersi için). METIN: Klavye ile metin ekle, font/boyut ayarı. VURGULAYICI: Şeffaf renkli kalem (önemli noktaları vurgula). EKRAN GÖRÜNTÜSÜ: Ekranı yakala, üzerine not ekle. Sayfalar: Yeni sayfa ekle, sayfalar arası geçiş, sayfa sil. Kaydetme: Dosya > Kaydet, PDF veya Xournal formatı. Kullanım: Matematik problemleri çözme, şema çizme, not alma, öğrenci çalışması gösterme.",
+      "target": null,
+      "target_type": "window",
+      "duration": 28,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Paylaşımı ve Uzaktan Erişim",
+      "description": "Ekranınızı öğrencilerin tabletlerine yansıtın: Yöntem 1 - VNC (Virtual Network Computing): Kurulum: sudo apt install x11vnc, Başlatma: x11vnc -display :0 -auth guess, Öğrenciler VNC Viewer ile bağlanır (IP adresi gerekli). Yöntem 2 - Ekran Yayını (DLNA/Miracast): Ayarlar > Ekran > Kablosuz Ekran, öğrenci cihazları ekranı görebilir. Yöntem 3 - EBA Canlı Ders: EBA platformu üzerinden ekran paylaşımı, öğrenciler EBA'dan izler. Güvenlik: Şifre koruması kullanın, sadece sınıf ağında paylaşın, ders bitince kapatın. Kullanım alanları: Uzaktan eğitim, öğrenci takibi, sunum gösterimi, işbirlikçi çalışma. Not: Ekran paylaşımı ağ bağlantısı gerektirir, WiFi hızı önemli.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Ekran Görüntüsü ve Ekran Kaydı - Ders Materyali",
+      "description": "Ekran görüntüsü almak: Print Screen (tüm ekran), Alt+Print Screen (aktif pencere), Shift+Print Screen (alan seçimi), Ekran Görüntüsü uygulaması (gecikme, düzenleme). Ekran kaydı: SimpleScreenRecorder (önceki rehberde detaylı), Kazam (alternatif, basit), OBS Studio (profesyonel, canlı yayın). Ders kaydı için ipuçları: Sessiz ortam (mikrofon kalitesi önemli), Yavaş ve net konuşun, Fare hareketlerini abartmayın (öğrenciler takip etsin), Önemli noktaları vurgulayın (kalem ile işaretleyin), Kısa videolar (10-15 dakika, dikkat süresi), Düzenleme yapın (gereksiz kısımları kesin). Kayıt formatı: MP4 (evrensel uyumlu), 1080p çözünürlük, 30 FPS. Paylaşım: EBA'ya yükleyin, Google Drive, YouTube (gizli video). Kullanım: Ders anlatımı, laboratuvar deneyi, yazılım öğretimi, ödev açıklaması.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Eğitim Uygulamaları - Akıllı Tahta İçin",
+      "description": "Pardus'ta önceden yüklü eğitim uygulamaları: GCompris (2-10 yaş, matematik, okuma, bilim, oyunlar), Tux Math (matematik oyunu, toplama/çıkarma/çarpma/bölme), Tux Paint (çocuklar için çizim, yaratıcılık), Stellarium (astronomi, yıldız haritası, gezegen simülasyonu), Kalzium (periyodik tablo, kimya), Marble (dünya haritası, coğrafya), KGeography (coğrafya quizi), KBruch (kesirler öğretimi). Yazılım Merkezi'nden yüklenebilir: Anki (hafıza kartları, kelime öğrenme), GeoGebra (matematik, geometri, grafik), Scratch (programlama öğretimi, çocuklar için), Moodle (öğrenme yönetim sistemi). EBA entegrasyonu: EBA içerikleri doğrudan akıllı tahtada açılır, interaktif içerikler, videolar, testler. Kullanım: Dersi eğlenceli hale getirin, öğrenci katılımını artırın, görsel öğrenme.",
+      "target": null,
+      "target_type": "window",
+      "duration": 26,
+      "animation": "fade"
+    },
+    {
+      "title": "Akıllı Tahta Güvenliği ve Gizlilik",
+      "description": "Güvenlik önlemleri: Güçlü şifre kullanın (öğrenciler tahmin etmemeli), Ekran kilidini etkinleştirin (teneffüste), Otomatik oturum açmayı kapatın, Öğrenci hesapları oluşturun (sınırlı yetkiler), Önemli dosyaları yedekleyin. Gizlilik: Kişisel dosyaları akıllı tahtada saklamayın, Tarayıcı geçmişini temizleyin, Kaydedilmiş şifreleri silın, Öğrenci bilgilerini koruyun (KVKK uyumu). Fiziksel güvenlik: Akıllı tahtayı kilitleyin (ders dışında), Kabloları düzenli tutun (takılma riski), Uzaktan kumandayı güvenli yerde saklayın, Yetkisiz erişimi engelleyin. Yazılım güvenliği: Güncellemeleri düzenli yükleyin, Antivirüs kullanın (ClamAV), Güvenilir kaynaklardan yazılım yükleyin, USB bellekleri tarayın. Sorumluluk: Öğretmen, akıllı tahtanın güvenliğinden sorumludur, okul IT politikalarına uyun.",
+      "target": null,
+      "target_type": "window",
+      "duration": 28,
+      "animation": "fade"
+    },
+    {
+      "title": "Akıllı Tahta Sorun Giderme - Acil Durumlar",
+      "description": "SORUN: Ekran açılmıyor. ÇÖZÜM: Elektrik bağlantısı, güç düğmesi, 30 saniye bekleyip tekrar dene. SORUN: Görüntü yok, ses var. ÇÖZÜM: HDMI kablosu, giriş kaynağı (uzaktan kumanda > Source/Input), parlaklık ayarı. SORUN: Ses yok. ÇÖZÜM: Ses seviyesi, sessiz mod, doğru çıkış cihazı (Ayarlar > Ses). SORUN: İnternet yok. ÇÖZÜM: WiFi bağlantısı, şifre, router, IT destek. SORUN: Uygulama dondu. ÇÖZÜM: Alt+F4, Sistem Monitörü > İşlemi Sonlandır. SORUN: Sistem çok yavaş. ÇÖZÜM: Gereksiz programları kapat, yeniden başlat, disk temizliği. SORUN: Güncelleme hatası. ÇÖZÜM: İnternet bağlantısı, Terminal > sudo apt update && sudo apt upgrade. ACİL DURUM: Fare takın (USB), temel işlemleri fare ile yapın, IT desteğini arayın. Teknik destek: Okul IT birimi, MEB destek hattı, Pardus forumları.",
+      "target": null,
+      "target_type": "window",
+      "duration": 28,
+      "animation": "fade"
+    }
+  ]
+}

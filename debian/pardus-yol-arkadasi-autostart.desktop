@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pardus Yol Arkadaşı (Otomatik Başlatma)
+Name[tr]=Pardus Yol Arkadaşı (Otomatik Başlatma)
+Comment=İlk açılışta Pardus rehberini göster
+Comment[tr]=İlk açılışta Pardus rehberini göster
+Exec=pardus-yol-arkadasi
+Icon=pardus-yol-arkadasi
+Terminal=false
+Categories=Education;System;
+X-GNOME-Autostart-enabled=true
+Hidden=false
+NoDisplay=false

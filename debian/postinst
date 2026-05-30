@@ -1,0 +1,34 @@
+#!/bin/bash
+# Kurulum sonrası script
+# Ottoman Techs - Teknofest 2026
+
+set -e
+
+case "$1" in
+    configure)
+        # Çalıştırılabilir script oluştur
+        cat > /usr/bin/pardus-yol-arkadasi << 'EOF'
+#!/bin/bash
+cd /usr/share/pardus-yol-arkadasi
+python3 main.py "$@"
+EOF
+        chmod +x /usr/bin/pardus-yol-arkadasi
+        
+        # Desktop database güncelle
+        if [ -x /usr/bin/update-desktop-database ]; then
+            update-desktop-database -q /usr/share/applications
+        fi
+        
+        # Icon cache güncelle
+        if [ -x /usr/bin/gtk-update-icon-cache ]; then
+            gtk-update-icon-cache -q -t -f /usr/share/pixmaps
+        fi
+        
+        echo "Pardus Yol Arkadaşı başarıyla kuruldu!"
+        echo "Uygulamayı başlatmak için: pardus-yol-arkadasi"
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0
