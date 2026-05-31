@@ -58,22 +58,32 @@
 
 ### Sistem Gereksinimleri
 
-- Pardus 21 veya üzeri
-- Python 3.10+
-- PyQt5
-- 100 MB boş disk alanı
+- **İşletim Sistemi**: Pardus 21 veya üzeri
+- **Python**: 3.10+
+- **PyQt5**: 5.15+
+- **Disk Alanı**: 100 MB boş alan
 
-### Debian Paketi ile Kurulum
+### Yöntem 1: Debian Paketi ile Kurulum (Önerilen)
 
 ```bash
-# Paketi indirin ve kurun
+# Paketi kurun
 sudo dpkg -i pardus-yol-arkadasi_1.0.0_all.deb
 
 # Bağımlılıkları yükleyin
 sudo apt-get install -f
 ```
 
-### Kaynak Koddan Kurulum
+### Yöntem 2: Basit Kurulum Scripti
+
+```bash
+# Kurulum
+sudo bash install.sh
+
+# Kaldırma
+sudo bash uninstall.sh
+```
+
+### Yöntem 3: Kaynak Koddan Kurulum
 
 ```bash
 # Depoyu klonlayın
@@ -81,7 +91,7 @@ git clone https://github.com/OttomanTechs/pardus-yol-arkadasi.git
 cd pardus-yol-arkadasi
 
 # Bağımlılıkları yükleyin
-pip3 install -r requirements.txt
+sudo apt-get install python3 python3-pyqt5 python3-pyqt5.qtmultimedia
 
 # Uygulamayı çalıştırın
 python3 src/main.py
